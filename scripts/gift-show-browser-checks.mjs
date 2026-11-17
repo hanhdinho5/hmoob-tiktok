@@ -11,7 +11,6 @@ export async function checkGiftShows({navigate,evaluate,until,screenshot,viewpor
   await until(()=>evaluate(`Hmong3D.stats().cameraShot==='${show.kind}' && Hmong3D.stats().showViewer==='show_a'`),`${show.kind} targets sender`);
   await evaluate(`Hmong3D.director.update(${show.kind==='change'?2.8:show.kind==='car'?4.8:show.kind==='heli'?6:3})`);await delay(150);
   assert.equal(await evaluate('Hmong3D.snapshot().every(p=>p.position.every(Number.isFinite))'),true);
-  assert.ok(await evaluate('!document.querySelector("#showCaption").hidden'));
   if(show.kind==='change')assert.notEqual(await evaluate('Hmong3D.snapshot().find(p=>p.key==="show_a").index'),await evaluate('Hmong3D.director.active.originalIndex'));
   await screenshot(`hmong-show-${show.kind}.png`);
   await evaluate(`Hmong3D.director.update(${show.duration})`);

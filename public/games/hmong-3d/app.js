@@ -91,7 +91,7 @@ try {
  dj=new ResidentDJ(rendering.scene,characters);rendering.residentDJ=dj;
  characters.setMode(settings.mode);
  const requested=Number(params.get('limit'));if(Number.isFinite(requested)&&requested>0)characters.setLimit(requested);
- director=new ShowDirector(rendering,characters,{sound,onCaption:text=>{const caption=$('showCaption');caption.textContent=text;caption.hidden=!text;}});rendering.director=director;
+ director=new ShowDirector(rendering,characters,{sound});rendering.director=director;
  router=new EventRouter(characters,rendering.stage,config,{sound,mc,onBeer:data=>director.enqueueBeer(data),onDressing:data=>director.enqueueDressing(data),onGift:(data,rule)=>{if(characters.mode==='crowd')director.enqueue(data);else{const item=[...characters.items.values()][Number.isInteger(rule?.target)?rule.target:0];if(item)director.enqueue({...data,user:{...item.user,nickname:data.user?.nickname||item.user.nickname}});}},onFeed:feed,onStatus:reportConnection,onControl:control});
  applySettings(settings);HmongI18n.apply();$('musicTitle').removeAttribute('data-i18n');$('musicToggle').removeAttribute('data-i18n');music.emit('selected');$('loading').hidden=true;
  if(params.get('demo')==='1'||params.get('benchmark')==='1')status('crowd.demo');else if(!params.get('id')&&!params.get('username'))status('three.previewStatus');

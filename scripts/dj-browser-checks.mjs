@@ -9,7 +9,6 @@ export async function checkDJ({navigate,evaluate,until,screenshot,viewport}){
  await evaluate(`${g}.director.update(5)`);assert.equal(await evaluate(`${g}.dj.group.visible`),false);
  const key=await evaluate(`${g}.stats().djViewer`);assert.ok(key);assert.ok(await evaluate(`${g}.stats().djRemaining<=30`));
  await evaluate(`${g}.director.enqueue({user:{uniqueId:${JSON.stringify(key)}},giftName:'GG'})`);assert.equal(await evaluate(`${g}.stats().djQueue.length`),0);
- assert.match(await evaluate(`document.querySelector('#preview').contentDocument.querySelector('#showCaption').textContent`),/DJ khách mời/);
  await screenshot('hmong-guest-dj-dashboard.png');
  await evaluate(`${g}.director.update(34)`);assert.equal(await evaluate(`${g}.dj.group.visible`),true);assert.equal(await evaluate(`${g}.director.characters.items.get(${JSON.stringify(key)}).showLocked`),false);
  await evaluate(`${g}.director.clear();${g}.inject('gift',{user:{uniqueId:${JSON.stringify(key)}},giftName:'Rose',giftId:5655,giftValue:1})`);await until(()=>evaluate(`${g}.stats().cameraShot==='zoom'`),'Rose still zooms');await evaluate(`${g}.director.clear()`);
