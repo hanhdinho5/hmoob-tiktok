@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import { dashboardTikTokStatus } from '../public/games/hmong-3d/dashboard-connection.js';
+import { connectionStatus } from '../public/games/hmong-3d/connection-status.js';
+const connected=connectionStatus('connected',{},'alice');
+assert.equal(dashboardTikTokStatus('',connected).type,'local');assert.match(dashboardTikTokStatus('',connected).message,/chưa kết nối TikTok/);
+assert.equal(dashboardTikTokStatus('bob',connected).type,'connecting');
+assert.equal(dashboardTikTokStatus('alice',{type:'connected',message:'old report without username'}).type,'connecting');
+assert.equal(dashboardTikTokStatus('alice',connected).type,'connected');
+assert.equal(dashboardTikTokStatus(' @ALICE ',connected).type,'connected');
+assert.equal(dashboardTikTokStatus('alice',null).type,'connecting');
+const failed=connectionStatus('error',{message:'User offline'},'alice');assert.match(dashboardTikTokStatus('alice',failed).message,/User offline/);
+console.log('PASS: blank username never reports connected; changed usernames and old reports require fresh confirmation; matching success/error statuses remain visible.');

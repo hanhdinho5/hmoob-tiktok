@@ -1,0 +1,7 @@
+{
+  "tool": "imagegen built-in",
+  "file": "public/assets/hmong/club/dances-male-festival-v3.png",
+  "source": "public/assets/hmong/club/dances-male-festival-v2.png",
+  "reason": "Old atlas had uneven row boundaries that cut shoes; preserve original and repair equal cell layout.",
+  "prompt": "Edit this SAME 24-pose male character animation atlas. Preserve the exact character identity, costume, face, color palette, and EACH pose's meaning and reading order. Correct the ATLAS ALIGNMENT ONLY: make an EXACT mathematically uniform grid of FOUR equal columns and SIX equal rows on a 1024x1536 (2:3) canvas. Each cell is exactly 256x256 pixels. The current rows are uneven and some shoes are cut by the intended cell border. Reposition and shrink each FULL pose to fit its own exact 256x256 cell with at least 16 pixels of completely transparent padding on every side. Each figure including entire hair, hands, sash and both soles fits fully inside its own cell, no crossing ANY boundary. Consistent figure scale and foot baseline at 90% down each individual cell. Rows must start at y=0,256,512,768,1024,1280. Columns start x=0,256,512,768. Never draw guides, numbers, labels or grid lines. Maintain all 24 distinct coherent poses, first 8 side-step, next 8 arm groove, final 8 disco. Genuine alpha-zero background, NO gray/purple gradient, floor, checkerboard or shadows. Preserve beautiful illustration and complete footwear. This is a production sprite atlas, correct cell geometry and transparent margins take priority."
+}

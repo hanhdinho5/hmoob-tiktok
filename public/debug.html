@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="/lib/i18n.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="debug.html.1">H’Mông LIVE · Kiểm tra sự kiện</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/lib/tiktok-bridge.js"></script>
+    <style>
+      body {
+        font-family: sans-serif;
+        background: #121212;
+        color: #eee;
+        padding: 20px;
+      }
+      #log {
+        background: #000;
+        height: 400px;
+        overflow-y: scroll;
+        padding: 10px;
+        border-radius: 5px;
+        font-family: monospace;
+        font-size: 13px;
+        line-height: 1.5;
+      }
+      .chat {
+        color: #4af;
+      }
+      .gift {
+        color: #f4a;
+        font-weight: bold;
+      }
+      .like {
+        color: #af4;
+      }
+      .share {
+        color: #fa4;
+      }
+      .error {
+        color: #f44;
+      }
+      .reconnecting {
+        color: #ff0;
+      }
+      .system {
+        color: #888;
+      }
+      input {
+        padding: 8px;
+        border-radius: 4px;
+        border: 1px solid #444;
+        background: #222;
+        color: #fff;
+        width: 250px;
+      }
+      button {
+        padding: 8px 15px;
+        background: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      #stats {
+        margin-top: 10px;
+        padding: 10px;
+        background: #1a1a1a;
+        border-radius: 5px;
+        font-family: monospace;
+        font-size: 12px;
+        color: #888;
+      }
+    </style>
+    <link rel="stylesheet" href="/css/hmong-theme.css" />
+  </head>
+  <body>
+    <h1 data-i18n="debug.html.2">H’Mông LIVE · Kiểm tra sự kiện</h1>
+    <div style="margin-bottom: 20px">
+      <input type="text" id="username" placeholder="Nhập tên tài khoản TikTok" data-i18n-placeholder="debug.html.3" />
+      <button onclick="start()" data-i18n="debug.html.4">Kết nối</button>
+    </div>
+    <div id="stats" data-i18n="debug.html.5">Đang chờ kết nối…</div>
+    <div id="log"></div>
+
+    <script>
+      const t = (...args) => HmongI18n.t(...args);
+      const logDiv = document.getElementById("log");
+      const statsDiv = document.getElementById("stats");
+      let chatCount = 0,
+        giftCount = 0,
+        likeCount = 0,
+        shareCount = 0;
+
+      function addLog(msg, type = "") {
+        const entry = document.createElement("div");
+        entry.className = type;
+        entry.innerText = `[${new Date().toLocaleTimeString()}] ${msg}`;
+        logDiv.prepend(entry);
+      }
+
+      function updateStats() {
+        statsDiv.textContent = t("debug.stats", {chat:chatCount,gift:giftCount,like:likeCount,share:shareCount});
+      }
+
+      async function start() {
+        await HmongI18n.ready;
+        const username = document.getElementById("username").value.trim();
+        if (!username) return alert(t("home.needUsername"));
+
+        addLog(t("debug.connecting", {name:username}), "system");
+        TikTokBridge.connect(username);
+
+        TikTokBridge.on("connected", (data) => addLog(t("debug.joined", {room:data.room}), "like"));
+
+        TikTokBridge.on("chat", (data) => {
+          chatCount++;
+          addLog(`💬 ${data.user.nickname}: ${data.comment}`, "chat");
+          updateStats();
+        });
+
+        TikTokBridge.on("gift", (data) => {
+          giftCount++;
+          addLog(
+            t("debug.gift", {name:data.user.nickname,gift:data.giftName,id:data.giftId,count:data.repeatCount,value:data.giftValue,tier:t(`gift.${data.giftType}`)}),
+            "gift",
+          );
+          updateStats();
+        });
+
+        TikTokBridge.on("like", (data) => {
+          likeCount += data.likeCount;
+          addLog(
+            t("debug.like", {name:data.user.nickname,count:data.likeCount,total:data.totalLikeCount}),
+            "like",
+          );
+          updateStats();
+        });
+
+        TikTokBridge.on("share", (data) => {
+          shareCount++;
+          addLog(t("debug.share", {name:data.user.nickname}), "share");
+          updateStats();
+        });
+
+        TikTokBridge.on("reconnecting", (data) => {
+          addLog(
+            t("debug.retry", {attempt:data.attempt,delay:data.delayMs}),
+            "reconnecting",
+          );
+        });
+
+        TikTokBridge.on("error", (data) => {
+          addLog(t("debug.error"), "error");
+        });
+
+        TikTokBridge.on("disconnected", () => {
+          addLog(t("debug.disconnected"), "error");
+        });
+      }
+    </script>
+  </body>
+</html>

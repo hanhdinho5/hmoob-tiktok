@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="vi">
+<head>
+ <meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+ <title data-i18n="three.title">H’Mông Dance Club · Chibi 3D</title>
+ <script src="/lib/i18n.js"></script>
+ <link rel="stylesheet" href="style.css" /><link rel="stylesheet" href="/css/hmong-theme.css" /><link rel="stylesheet" href="display.css" />
+ <script type="importmap">{"imports":{"three":"/vendor/three/build/three.module.js","three/addons/":"/vendor/three/addons/"}}</script>
+</head>
+<body data-layout="portrait">
+ <canvas id="scene" aria-label="Sân khấu 3D" data-i18n-aria-label="three.canvas"></canvas>
+ <header class="overlay-header">
+  <a class="identity" href="dashboard.html"><span class="identity-mark">✦</span><span>H’MÔNG <b>LIVE</b><small data-i18n="three.tagline">DANCE CLUB · NYOB ZOO!</small></span></a>
+ <section id="giftGuide" class="gift-guide" aria-label="Quà tương tác"></section>
+  <div id="connection" class="connection" role="status" aria-live="polite" data-i18n="three.loading">Đang dựng sân khấu…</div>
+ </header>
+ <section class="scene-heading"><span class="scene-eyebrow" data-i18n="three.eyebrow">H’MÔNG DANCE CLUB · LIVE</span><h1 data-i18n="common.hello">Xin chào!</h1><p id="modeName" data-i18n="three.stageMode">Sáu người bạn · Cùng nhịp điệu</p></section>
+ <aside class="scene-note"><span>01 / 3D</span><p data-i18n="three.prototype">Mẫu chibi thử nghiệm. Trang phục và điệu múa đang chờ duyệt văn hóa.</p></aside>
+ <div id="loading" class="loading"><span class="spinner"></span><p id="loadingText" data-i18n="three.loading">Đang dựng sân khấu…</p><a href="dashboard.html" data-i18n="three.control">Mở game 2D</a></div>
+ <p id="djHint" class="dj-hint">🎧 Tặng GG → lên DJ 30 giây · 🌹 Hoa → zoom gần</p>
+ <output id="showCaption" class="show-caption" hidden aria-live="polite"></output>
+ <div id="feed" class="three-feed" aria-live="polite"></div>
+ <footer class="overlay-footer"><span id="count" data-i18n="three.fourCharacters">6 NHÂN VẬT</span><span class="footer-line"></span><button id="sound" data-i18n="crowd.soundOff">🔇 ĐÃ TẮT</button><button id="fullscreen" data-i18n="three.fullscreen">Toàn màn hình</button><a id="admin" href="dashboard.html" target="_blank" rel="noopener" data-i18n="three.control">Điều khiển ↗</a></footer>
+ <section class="music-bar" aria-label="Nhạc nền" data-i18n-aria-label="music.title"><span class="music-icon">♫</span><span id="musicTitle" class="music-track" data-i18n="music.loading">Đang tải nhạc…</span><button id="musicPrevious" aria-label="Bài trước" data-i18n-aria-label="music.previous">⏮</button><button id="musicToggle" data-i18n="music.play">Phát nhạc</button><button id="musicNext" aria-label="Bài tiếp" data-i18n-aria-label="music.next">⏭</button><input id="musicVolume" type="range" min="0" max="1" step="0.05" value="0.35" aria-label="Âm lượng nhạc" data-i18n-aria-label="music.volume" /></section>
+ <aside class="mc-bar" aria-label="MC tiếng H’Mông"><span id="mcStatus" role="status">Đang kiểm tra giọng MC…</span><button id="mcReference" disabled>Nghe giọng nam</button><button id="mcToggle" disabled>Bật MC</button></aside>
+ <p class="dance-help" data-i18n="three.danceHelp">Đổi nhân vật: nam · nữ. Đổi điệu: nhảy 1 · nhảy 2 · nhảy 3 · tự động · đứng yên</p>
+ <button id="audioUnlock" class="audio-unlock" hidden data-i18n="three.unlockAudio">Bấm để bật âm thanh</button>
+ <output id="metrics" hidden></output>
+ <script src="/socket.io/socket.io.js"></script><script src="/lib/tiktok-bridge.js"></script><script src="event-buffer.js"></script>
+ <script src="/lib/chat-commands.js"></script><script src="/lib/hmong-assets.js"></script><script src="/lib/crowd-sound-fx.js"></script>
+ <script type="module" src="app.js"></script>
+</body>
+</html>

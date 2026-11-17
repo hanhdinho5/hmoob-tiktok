@@ -1,0 +1,26 @@
+{
+  "notes": "Chỉ bật approved khi đã xác nhận trang phục, quyền sử dụng và lời thoại với người bản địa. src là đường dẫn từ public, bắt đầu bằng /assets/.",
+  "characters": [
+    { "id": "male-indigo", "src": null, "approved": false, "credit": null, "license": null },
+    { "id": "female-indigo", "src": null, "approved": false, "credit": null, "license": null },
+    { "id": "male-festival", "src": null, "approved": false, "credit": null, "license": null },
+    { "id": "female-festival", "src": null, "approved": false, "credit": null, "license": null }
+  ],
+  "background": {
+    "src": "/assets/hmong/mu-cang-chai.jpg",
+    "approved": true,
+    "credit": "Malock2589 / Wikimedia Commons",
+    "license": "CC0-1.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Golden-terraced-fields-in-Mu-Cang-Chai.jpg",
+    "sha1": "312b467711833b3aadf68a8310d48a726aca9084"
+  },
+  "audio": {
+    "member": { "src": null, "approved": false, "textKey": "common.hello", "speaker": null, "license": null },
+    "gift": { "src": null, "approved": false, "textKey": "common.thanks", "speaker": null, "license": null },
+    "chat": { "src": null, "approved": false, "textKey": null, "speaker": null, "license": null },
+    "specialGift": { "src": null, "approved": false, "textKey": null, "speaker": null, "license": null },
+    "follow": { "src": null, "approved": false, "textKey": null, "speaker": null, "license": null },
+    "dance": { "src": null, "approved": false, "textKey": null, "speaker": null, "license": null },
+    "dialogue": { "src": null, "approved": false, "textKey": null, "speaker": null, "license": null }
+  }
+}

@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import { normalizeCompletedGift } from '../src/lib/tiktokEventNormalizer.js';
+const base={user:{uniqueId:'a',nickname:'A'},giftId:5655,giftName:'Rose',diamondCount:1,giftType:1};
+const streak=[1,2,3].map(repeatCount=>({...base,repeatCount,repeatEnd:false}));streak.push({...base,repeatCount:3,repeatEnd:true});
+const events=streak.map(normalizeCompletedGift).filter(Boolean);assert.equal(events.length,1);assert.equal(events[0].repeatCount,3);
+assert.equal([{...base,repeatCount:1,repeatEnd:false},{...base,repeatCount:1,repeatEnd:true}].map(normalizeCompletedGift).filter(Boolean).length,1);
+assert.equal(normalizeCompletedGift({...base,giftType:'1',repeatEnd:false}),null);
+assert.equal(normalizeCompletedGift({...base,giftType:2,repeatCount:2}).repeatCount,2);
+assert.equal(normalizeCompletedGift({...base,giftType:undefined,repeatCount:1}).repeatCount,1);
+assert.deepEqual(Object.keys(events[0]).sort(),['user','giftId','giftName','giftValue','repeatCount','giftType','timestamp'].sort());
+assert.equal(events[0].giftType,'small');
+const second=normalizeCompletedGift({...base,repeatCount:2,repeatEnd:true});assert.equal(events[0].repeatCount+second.repeatCount,5);
+console.log('PASS: cumulative 1→2→3 emits one completed x3 gift, single gifts emit once, non-streaks remain immediate, separate streaks add and public payload shape stays unchanged.');

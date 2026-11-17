@@ -1,0 +1,404 @@
+{
+  "method": "Chrome headless; software WebGL allowed; 960×540; warmup >=2.2s; 6 samples separated by 1s; not OBS/hardware certification",
+  "environment": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "vendor": "Google Inc. (Google)",
+    "deviceMemory": 16
+  },
+  "profiles": [
+    {
+      "count": 6,
+      "samples": [
+        {
+          "characters": 6,
+          "fps": 15.8,
+          "drawCalls": 98,
+          "triangles": 11622,
+          "geometries": 40,
+          "textures": 16,
+          "heapMB": 24.3,
+          "renderCpuMs": 1.3,
+          "queue": 0,
+          "dropped": 0,
+          "pixelRatio": 1,
+          "viewport": [
+            960,
+            540
+          ],
+          "cameraFov": 38,
+          "allCharactersFramed": true,
+          "threeRevision": "187",
+          "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+        },
+        {
+          "characters": 6,
+          "fps": 16.2,
+          "drawCalls": 98,
+          "triangles": 11622,
+          "geometries": 40,
+          "textures": 16,
+          "heapMB": 27.6,
+          "renderCpuMs": 1.4,
+          "queue": 0,
+          "dropped": 0,
+          "pixelRatio": 1,
+          "viewport": [
+            960,
+            540
+          ],
+          "cameraFov": 38,
+          "allCharactersFramed": true,
+          "threeRevision": "187",
+          "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+        },
+        {
+          "characters": 6,
+          "fps": 16,
+          "drawCalls": 98,
+          "triangles": 11622,
+          "geometries": 40,
+          "textures": 16,
+          "heapMB": 23,
+          "renderCpuMs": 1.7,
+          "queue": 0,
+          "dropped": 0,
+          "pixelRatio": 1,
+          "viewport": [
+            960,
+            540
+          ],
+          "cameraFov": 38,
+          "allCharactersFramed": true,
+          "threeRevision": "187",
+          "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+        },
+        {
+          "characters": 6,
+          "fps": 16.1,
+          "drawCalls": 98,
+          "triangles": 11622,
+          "geometries": 40,
+          "textures": 16,
+          "heapMB": 23,
+          "renderCpuMs": 1.2,
+          "queue": 0,
+          "dropped": 0,
+          "pixelRatio": 1,
+          "viewport": [
+            960,
+            540
+          ],
+          "cameraFov": 38,
+          "allCharactersFramed": true,
+          "threeRevision": "187",
+          "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+        },
+        {
+          "characters": 6,
+          "fps": 15.6,
+          "drawCalls": 98,
+          "triangles": 11622,
+          "geometries": 40,
+          "textures": 16,
+          "heapMB": 26,
+          "renderCpuMs": 1.4,
+          "queue": 0,
+          "dropped": 0,
+          "pixelRatio": 1,
+          "viewport": [
+            960,
+            540
+          ],
+          "cameraFov": 38,
+          "allCharactersFramed": true,
+          "threeRevision": "187",
+          "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+        },
+        {
+          "characters": 6,
+          "fps": 15.1,
+          "drawCalls": 98,
+          "triangles": 11622,
+          "geometries": 40,
+          "textures": 16,
+          "heapMB": 11.9,
+          "renderCpuMs": 1.3,
+          "queue": 0,
+          "dropped": 0,
+          "pixelRatio": 1,
+          "viewport": [
+            960,
+            540
+          ],
+          "cameraFov": 38,
+          "allCharactersFramed": true,
+          "threeRevision": "187",
+          "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+        }
+      ]
+    },
+    {
+      "count": 30,
+      "samples": [
+        {
+          "characters": 30,
+          "fps": 22.7,
+          "drawCalls": 74,
+          "triangles": 6290,
+          "geometries": 46,
+          "textures": 36,
+          "heapMB": 26.2,
+          "renderCpuMs": 0.9,
+          "queue": 0,
+          "dropped": 0,
+          "pixelRatio": 1,
+          "viewport": [
+            960,
+            540
+          ],
+          "cameraFov": 38,
+          "allCharactersFramed": true,
+          "threeRevision": "187",
+          "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+        },
+        {
+          "characters": 30,
+          "fps": 24.2,
+          "drawCalls": 74,
+          "triangles": 6290,
+          "geometries": 46,
+          "textures": 36,
+          "heapMB": 28.7,
+          "renderCpuMs": 0.8,
+          "queue": 0,
+          "dropped": 0,
+          "pixelRatio": 1,
+          "viewport": [
+            960,
+            540
+          ],
+          "cameraFov": 38,
+          "allCharactersFramed": true,
+          "threeRevision": "187",
+          "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+        },
+        {
+          "characters": 30,
+          "fps": 24.2,
+          "drawCalls": 74,
+          "triangles": 6290,
+          "geometries": 46,
+          "textures": 36,
+          "heapMB": 25,
+          "renderCpuMs": 0.9,
+          "queue": 0,
+          "dropped": 0,
+          "pixelRatio": 1,
+          "viewport": [
+            960,
+            540
+          ],
+          "cameraFov": 38,
+          "allCharactersFramed": true,
+          "threeRevision": "187",
+          "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+        },
+        {
+          "characters": 30,
+          "fps": 23,
+          "drawCalls": 74,
+          "triangles": 6290,
+          "geometries": 46,
+          "textures": 36,
+          "heapMB": 27.4,
+          "renderCpuMs": 1,
+          "queue": 0,
+          "dropped": 0,
+          "pixelRatio": 1,
+          "viewport": [
+            960,
+            540
+          ],
+          "cameraFov": 38,
+          "allCharactersFramed": true,
+          "threeRevision": "187",
+          "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+        },
+        {
+          "characters": 30,
+          "fps": 22.9,
+          "drawCalls": 74,
+          "triangles": 6290,
+          "geometries": 46,
+          "textures": 36,
+          "heapMB": 30.8,
+          "renderCpuMs": 1,
+          "queue": 0,
+          "dropped": 0,
+          "pixelRatio": 1,
+          "viewport": [
+            960,
+            540
+          ],
+          "cameraFov": 38,
+          "allCharactersFramed": true,
+          "threeRevision": "187",
+          "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+        },
+        {
+          "characters": 30,
+          "fps": 22.7,
+          "drawCalls": 74,
+          "triangles": 6290,
+          "geometries": 46,
+          "textures": 36,
+          "heapMB": 16.3,
+          "renderCpuMs": 0.9,
+          "queue": 0,
+          "dropped": 0,
+          "pixelRatio": 1,
+          "viewport": [
+            960,
+            540
+          ],
+          "cameraFov": 38,
+          "allCharactersFramed": true,
+          "threeRevision": "187",
+          "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+        }
+      ]
+    },
+    {
+      "count": 60,
+      "samples": [
+        {
+          "characters": 60,
+          "fps": 23.2,
+          "drawCalls": 92,
+          "triangles": 6686,
+          "geometries": 46,
+          "textures": 36,
+          "heapMB": 26.1,
+          "renderCpuMs": 0.7,
+          "queue": 0,
+          "dropped": 0,
+          "pixelRatio": 1,
+          "viewport": [
+            960,
+            540
+          ],
+          "cameraFov": 38,
+          "allCharactersFramed": true,
+          "threeRevision": "187",
+          "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+        },
+        {
+          "characters": 60,
+          "fps": 23.3,
+          "drawCalls": 92,
+          "triangles": 6686,
+          "geometries": 46,
+          "textures": 36,
+          "heapMB": 27.8,
+          "renderCpuMs": 0.9,
+          "queue": 0,
+          "dropped": 0,
+          "pixelRatio": 1,
+          "viewport": [
+            960,
+            540
+          ],
+          "cameraFov": 38,
+          "allCharactersFramed": true,
+          "threeRevision": "187",
+          "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+        },
+        {
+          "characters": 60,
+          "fps": 23.9,
+          "drawCalls": 92,
+          "triangles": 6686,
+          "geometries": 46,
+          "textures": 36,
+          "heapMB": 29.4,
+          "renderCpuMs": 0.7,
+          "queue": 0,
+          "dropped": 0,
+          "pixelRatio": 1,
+          "viewport": [
+            960,
+            540
+          ],
+          "cameraFov": 38,
+          "allCharactersFramed": true,
+          "threeRevision": "187",
+          "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+        },
+        {
+          "characters": 60,
+          "fps": 24.2,
+          "drawCalls": 92,
+          "triangles": 6686,
+          "geometries": 46,
+          "textures": 36,
+          "heapMB": 31,
+          "renderCpuMs": 0.9,
+          "queue": 0,
+          "dropped": 0,
+          "pixelRatio": 1,
+          "viewport": [
+            960,
+            540
+          ],
+          "cameraFov": 38,
+          "allCharactersFramed": true,
+          "threeRevision": "187",
+          "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+        },
+        {
+          "characters": 60,
+          "fps": 25.4,
+          "drawCalls": 92,
+          "triangles": 6686,
+          "geometries": 46,
+          "textures": 36,
+          "heapMB": 32.8,
+          "renderCpuMs": 1,
+          "queue": 0,
+          "dropped": 0,
+          "pixelRatio": 1,
+          "viewport": [
+            960,
+            540
+          ],
+          "cameraFov": 38,
+          "allCharactersFramed": true,
+          "threeRevision": "187",
+          "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+        },
+        {
+          "characters": 60,
+          "fps": 24.7,
+          "drawCalls": 92,
+          "triangles": 6686,
+          "geometries": 46,
+          "textures": 36,
+          "heapMB": 34.3,
+          "renderCpuMs": 0.7,
+          "queue": 0,
+          "dropped": 0,
+          "pixelRatio": 1,
+          "viewport": [
+            960,
+            540
+          ],
+          "cameraFov": 38,
+          "allCharactersFramed": true,
+          "threeRevision": "187",
+          "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+        }
+      ]
+    }
+  ]
+}

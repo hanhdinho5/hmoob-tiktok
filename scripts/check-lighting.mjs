@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import { BeatTracker, MusicReactivity } from '../public/lib/music-reactivity.js';
+import { lightFrame, bankLevel } from '../public/games/hmong-3d/light-patterns.js';
+function simulate(bpm,amplitude){const tracker=new BeatTracker();let state;for(let i=0;i<1200;i++){const t=i/60,beat=(t*bpm/60)%1,on=beat<.12;state=tracker.update({bass:on?amplitude:.08,mid:amplitude*.5,high:amplitude*.35,rms:amplitude*.32,playing:true},1/60);}return {tracker,state};}
+const slow=simulate(90,.3),fast=simulate(165,.9);assert.ok(Math.abs(slow.state.bpm-90)<6);assert.ok(Math.abs(fast.state.bpm-165)<8);assert.ok(fast.state.energy>slow.state.energy);assert.ok(fast.state.confidence>.5);
+const a=lightFrame(1,slow.state),b=lightFrame(1,fast.state);assert.ok(b.speed>a.speed*1.5,'energetic fast music moves fixtures faster');assert.notEqual(bankLevel({...b,chase:0},0),bankLevel({...b,chase:0},2),'banks alternate');assert.equal(lightFrame(1,fast.state,{intensity:0}).brightness,0);assert.ok(lightFrame(1,fast.state,{reduced:true}).speed<b.speed);assert.equal(lightFrame(1,fast.state,{musicLights:false}).source,'auto');
+let silence;for(let i=0;i<300;i++)silence=fast.tracker.update({playing:false},1/60);assert.ok(silence.energy<.001);assert.ok(silence.beat<.001);
+const audio={paused:true,src:'test',ended:false};const reactive=new MusicReactivity(audio,{preview:true});assert.equal(reactive.sample(.1).source,'demo');reactive.unlock();assert.equal(reactive.context,null);reactive.dispose();
+// Suspended Web Audio must not steal the media element's native output.
+let sources=0,closed=false;class Context {constructor(){this.state='suspended';this.destination={};}resume(){this.state='running';return Promise.resolve();}createAnalyser(){return {frequencyBinCount:512,disconnect(){},connect(){}};}createMediaElementSource(){sources++;return {connect(){},disconnect(){}};}close(){closed=true;return Promise.resolve();}}
+globalThis.AudioContext=Context;const live=new MusicReactivity(audio);live.unlock();assert.equal(sources,0);await Promise.resolve();assert.equal(sources,1);live.unlock();await Promise.resolve();assert.equal(sources,1,'source graph reused');live.dispose();assert.equal(closed,true);delete globalThis.AudioContext;
+console.log('PASS: 90/165 BPM pulse detection, energy/speed response, alternating banks, silence decay, reduced motion, intensity, silent preview and one reusable audio graph.');

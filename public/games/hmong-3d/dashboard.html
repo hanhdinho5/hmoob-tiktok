@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Điều khiển H’Mông LIVE</title><script src="/lib/i18n.js"></script><link rel="stylesheet" href="dashboard-simple.css"></head>
+<body><header><div><span class="live-dot"></span><strong>H’MÔNG LIVE</strong><span class="muted">Điều khiển</span></div><a id="displayLink" href="index.html" target="_blank" rel="noopener">Mở trang hiển thị ↗</a></header>
+<main><div class="controls">
+<section class="panel"><h1>Kết nối & link LIVE Studio</h1><label for="username">Username TikTok <span class="muted">· để trống khi thử</span></label><div class="connect-row"><input id="username" autocomplete="off" placeholder="Tên tài khoản TikTok"><button id="connectTikTok" class="primary">Kết nối TikTok</button></div>
+<p id="tiktokStatus" role="status"></p><p id="displayStatus" class="muted" role="status"></p>
+<div class="button-row"><button id="copy" class="primary">Sao chép link Studio</button><button id="open">Mở trang hiển thị ↗</button></div><code id="overlayUrl"></code><p id="notice" role="status"></p></section>
+<section class="panel"><div class="section-heading"><h2>Người chơi & tương tác thử</h2><output id="testStats" class="muted">Đang tải…</output></div>
+<div class="button-row"><button data-action="join" class="primary">+ Thêm 1 người</button><button data-action="join10">+ Thêm 10 người</button><button data-action="reset" class="quiet">Xóa người thử</button></div>
+<label for="testComment">Bình luận giả lập</label><div class="comment-row"><input id="testComment" maxlength="160" value="Xin chào!" placeholder="Nhập bình luận"><button data-action="chat">Gửi · thêm người</button></div>
+<button data-action="like" class="like-button">♥ Thả tim · thêm người</button><p class="help">Mỗi bình luận hoặc lượt thả tim tạo một người thử mới. Không gửi tương tác thật lên TikTok.</p></section>
+<section class="panel"><h2>Tặng quà thử</h2><div class="gift-fields"><label>Người tặng<select id="testViewer"><option value="">Tự thêm người mới</option></select></label><label>Số lượng<input id="testGiftCount" type="number" min="1" max="100" value="1"></label></div>
+<div id="giftShowButtons" class="gift-buttons"></div><p class="help">Bấm ảnh quà để thử. Mời bia cần ít nhất 2 người.</p></section>
+<section class="panel"><h2>Nhạc nền</h2><label for="musicTrack">Bài hát</label><select id="musicTrack"></select><div class="button-row music-actions"><button id="musicPrevious">⏮ Bài trước</button><button id="musicToggle" class="primary">Phát nhạc</button><button id="musicNext">Bài tiếp ⏭</button></div>
+<label for="musicVolume">Âm lượng <output id="musicVolumeValue">35%</output></label><input id="musicVolume" type="range" min="0" max="1" step="0.05" value="0.35"><p class="help">Nhạc phát ở trang hiển thị; khung xem trước luôn tắt tiếng.</p></section>
+</div><aside class="preview-panel"><div class="preview-label">XEM TRƯỚC <span>9:16</span></div><iframe id="preview" src="index.html?mode=crowd&simulation=1&hud=0&music=0&mc=0" title="Xem trước sân khấu" allow="autoplay;fullscreen"></iframe></aside></main>
+<script src="/socket.io/socket.io.js"></script><script type="module" src="dashboard-simple.js"></script></body></html>

@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';
+import { CrowdSimulator } from '../public/games/hmong-3d/simulator-engine.js';
+const events=[],sim=new CrowdSimulator((type,data)=>events.push({type,data}),{random:()=>0});
+sim.join(10);assert.equal(sim.users.size,10);assert.equal(events.length,10);const id=sim.users.keys().next().value;
+sim.duplicate(id);assert.equal(sim.users.size,10);assert.equal(events.filter(e=>e.data.user.uniqueId===id).length,21);
+sim.interact('gift',id,{giftName:'Rose',giftValue:1,repeatCount:10});assert.equal(events.at(-1).data.repeatCount,10);
+sim.leave(id);assert.equal(sim.users.has(id),false);assert.equal(events.at(-1).type,'simulationLeave');
+sim.join(150);assert.equal(sim.users.size,100);sim.tick();assert.equal(sim.users.size,100);
+sim.start();assert.ok(sim.timer);sim.stop();assert.equal(sim.timer,null);sim.reset();assert.equal(sim.users.size,0);sim.dispose();
+console.log('PASS: isolated simulated join/leave, duplicate, gift combo, 100-user cap, auto stop and reset.');
+const variants=[],library=new CrowdSimulator((type,data)=>{if(type==='member')variants.push(data.simulationVariant);},{variantCount:20});library.join(20);assert.equal(new Set(variants).size,20);assert.deepEqual(variants,[...Array(20).keys()]);library.dispose();

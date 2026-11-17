@@ -1,0 +1,136 @@
+{
+  "tool": "imagegen built-in",
+  "prompt": "Create a production ANIMATION SPRITE SHEET for the EXACT SAME single Hmong chibi character as the supplied reference. Reference is identity/costume only: preserve face, hairstyle/headdress, gender, all clothing colors, embroidery and accessories exactly. New asset, not replacement. Square image, EXACTLY SIX EQUAL COLUMNS and SIX EQUAL ROWS, 36 full-body poses. Each character same scale, centered in its cell, full head and shoes inside cell with 8% transparent padding on ALL sides, sole baseline 90% of cell height. Fixed FRONT orthographic camera, premium soft 3D chibi illustration matching reference. Genuine clean transparent RGBA background, no floor/shadows/glow, no colored fringe/no text/no grid. Exactly ONE character per cell. THREE LOOPING dances of TWELVE incremental frames each; read left-to-right then down. First TWO ROWS (frames 0-11): BOTH HANDS firmly REST ON HIPS, elbows out, playful lateral HIP SWAY with alternating knee bends, belt/pelvis left-center-right-center, chest counterbalances, head steady; cheerful nonsexual dance. Middle TWO ROWS (12-23): SHOULDER GROOVE with hands near waist, shoulders alternate rising/dropping, soft knee bounce and alternating heel lifts. Last TWO ROWS (24-35): SIDE STEP-TOUCH WITH OPPOSITE ARM SWING: step left, right taps in, step right, left taps in; bent arms sweep opposite to steps. Every group is ONE fluid closed cycle, each successive frame small incremental motion; last pose connects naturally to first, no duplicate endpoint. Keep clean anatomy, consistent costume and body proportions, two hands/two feet, no random disconnected poses, no other characters, no clipping or crossing cell borders. Important generous padding at bottom row and all edges. NO red, pink or any colored matte fringe in transparency.",
+  "assets": [
+    {
+      "id": "male-daily",
+      "reference": "assets/hmong/club/dances-male-daily-v2.png",
+      "file": "public/assets/hmong/club/dances-male-daily-extended-v1.png",
+      "generated": "/home/hanhdinho/.codex/generated_images/01a1e29c-fc4e-7820-9dc2-9506617adbba/exec-b37d72e8-2f2a-4a19-a383-b798ae6d3206.png",
+      "prompt": "Create a production ANIMATION SPRITE SHEET for the same Hmong chibi character as the supplied reference. Reference image role: identity/costume reference ONLY; preserve the identical face, dark curly hair, embroidered navy jacket, purple/cyan/silver details, trousers and sneakers. New output asset, not a replacement of reference. Square 1536x1536 image, EXACT 6 equal columns x 6 equal rows = 36 full-body frames. Read left to right, top to bottom. ONE same character repeated in ALL cells. All 36 characters must have identical scale, centered at x=50% within cell, soles on a fixed baseline at 91% cell height; keep 7% empty margin above/beside the entire body. Orthographic fixed FRONT camera, no camera or costume changes. Genuine transparent RGBA background with no floor, no shadows, no gradients, no grid, no labels or text. Premium soft 3D-looking chibi illustration matching the reference, youthful adult proportions. THREE distinct smooth LOOPING dance sequences, TWELVE incremental frames per dance. Frames 0-11 (first TWO rows): BOTH HANDS REST ON THE HIPS THROUGHOUT, elbows out, feet planted shoulder width, playful lateral HIP SWAY with gentle alternating knee bends; pelvis and belt shift left -> center -> right -> center in one closed smooth cycle, upper chest counterbalances, head steady; nonsexual cheerful club dance. Frames 12-23 (middle TWO rows): SHOULDER GROOVE, elbows bent low at waist, shoulders alternately rise/drop with a smooth soft knee bounce, heel lifts alternate, hips stay centered. Frames 24-35 (last TWO rows): SIDE STEP-TOUCH WITH ARM SWING, left step then right foot taps in, then right step and left foot taps in, bent arms sweep opposite to feet, no large leaps. In each twelve-frame sequence, each successive pose advances a small phase of ONE continuous action, with no random or repeated disconnected poses; frame 11 naturally connects to frame 0 (do not duplicate an endpoint). Do NOT mix dances across their two-row blocks. Maintain clean anatomy, exactly two hands and two feet per character, consistent eyes and embroidery. Feet remain near their baseline and never cut at cell edges. Do not include any other characters or objects."
+    },
+    {
+      "id": "female-daily",
+      "reference": "assets/hmong/club/dances-female-daily-v2.png",
+      "file": "public/assets/hmong/club/dances-female-daily-extended-v1.png",
+      "generated": "/home/hanhdinho/.codex/generated_images/01a1e29c-fc4e-7820-9dc2-9506617adbba/exec-3f2c80ec-de36-41f4-892f-4bcc64fab810.png"
+    },
+    {
+      "id": "male-festival",
+      "reference": "assets/hmong/club/dances-male-festival-v3.png",
+      "file": "public/assets/hmong/club/dances-male-festival-extended-v1.png",
+      "generated": "/home/hanhdinho/.codex/generated_images/01a1e29c-fc4e-7820-9dc2-9506617adbba/exec-12fb0d73-df75-4aac-8305-6f2e3a191094.png"
+    },
+    {
+      "id": "female-festival",
+      "reference": "assets/hmong/club/dances-female-festival-v2.png",
+      "file": "public/assets/hmong/club/dances-female-festival-extended-v1.png",
+      "generated": "/home/hanhdinho/.codex/generated_images/01a1e29c-fc4e-7820-9dc2-9506617adbba/exec-009eb17f-2169-4769-88d0-8a35efaa5053.png"
+    },
+    {
+      "id": "male-white",
+      "reference": "assets/hmong/club/dances-male-white-v2.png",
+      "file": "public/assets/hmong/club/dances-male-white-extended-v1.png",
+      "generated": "/home/hanhdinho/.codex/generated_images/01a1e29c-fc4e-7820-9dc2-9506617adbba/exec-aaed29e0-ae0a-46ea-997b-58caec31213b.png"
+    },
+    {
+      "id": "female-bun",
+      "reference": "assets/hmong/club/dances-female-bun-v2.png",
+      "file": "public/assets/hmong/club/dances-female-bun-extended-v1.png",
+      "generated": "/home/hanhdinho/.codex/generated_images/01a1e29c-fc4e-7820-9dc2-9506617adbba/exec-26ec9eb6-a697-44e5-8d39-729f190bcf9a.png"
+    },
+    {
+      "id": "male-vest",
+      "reference": "assets/hmong/club/dances-male-vest-v2.png",
+      "file": "public/assets/hmong/club/dances-male-vest-extended-v1.png",
+      "generated": "/home/hanhdinho/.codex/generated_images/01a1e29c-fc4e-7820-9dc2-9506617adbba/exec-665b75ee-7d7d-4bfb-889a-44ebe448c9d0.png",
+      "repair": true
+    },
+    {
+      "id": "female-longhair",
+      "reference": "assets/hmong/club/dances-female-longhair-v2.png",
+      "file": "public/assets/hmong/club/dances-female-longhair-extended-v1.png",
+      "generated": "/home/hanhdinho/.codex/generated_images/01a1e29c-fc4e-7820-9dc2-9506617adbba/exec-5687e6be-fb11-4e70-94e5-ea9a52a931e2.png"
+    },
+    {
+      "id": "male-blue-jacket",
+      "reference": "assets/hmong/club/dances-male-blue-jacket-v1.png",
+      "file": "public/assets/hmong/club/dances-male-blue-jacket-extended-v1.png",
+      "generated": "/home/hanhdinho/.codex/generated_images/01a1e29c-fc4e-7820-9dc2-9506617adbba/exec-ffc34a02-f83f-481a-9a5b-b38e7836e525.png"
+    },
+    {
+      "id": "male-blue-headband",
+      "reference": "assets/hmong/club/dances-male-blue-headband-v1.png",
+      "file": "public/assets/hmong/club/dances-male-blue-headband-extended-v1.png",
+      "generated": "/home/hanhdinho/.codex/generated_images/01a1e29c-fc4e-7820-9dc2-9506617adbba/exec-67b46f02-3878-4cff-be49-fa7690c43b44.png",
+      "repair": true,
+      "paddingRepairReference": "/home/hanhdinho/.codex/generated_images/01a1e29c-fc4e-7820-9dc2-9506617adbba/exec-d7eb906a-c0c6-4470-aca2-1f865f7c7235.png",
+      "paddingRepairPrompt": "Fix layout padding of this existing animation sprite sheet. Keep the EXACT SAME male character, white-and-blue Hmong clothing, dark blue headband, face, style and ALL THIRTY-SIX individual poses in exactly SIX columns and SIX rows, same row-major order, same dance sequence. The bottom row shoes are too close to the canvas bottom. Make EACH figure 15 percent smaller about its own cell center, leaving 10 percent transparent margins on ALL sides of each equal square cell. Preserve all six rows and all six columns, 36 figures, do not remove any pose or change the dance poses. Keep the same square canvas. Clean true alpha transparency only, no background, no floor, no halos or white/colored matte. Every full shoe, every hairstyle, every arm fully contained with generous padding."
+    },
+    {
+      "id": "male-red-black",
+      "reference": "assets/hmong/club/dances-male-red-black-v1.png",
+      "file": "public/assets/hmong/club/dances-male-red-black-extended-v1.png",
+      "generated": "/home/hanhdinho/.codex/generated_images/01a1e29c-fc4e-7820-9dc2-9506617adbba/exec-bef45b4c-18d2-466c-9f35-66648f68d5a8.png"
+    },
+    {
+      "id": "male-white-black",
+      "reference": "assets/hmong/club/dances-male-white-black-v1.png",
+      "file": "public/assets/hmong/club/dances-male-white-black-extended-v1.png",
+      "generated": "/home/hanhdinho/.codex/generated_images/01a1e29c-fc4e-7820-9dc2-9506617adbba/exec-ab54939a-c85e-4f4c-9b0d-7cace39d4ef7.png"
+    },
+    {
+      "id": "male-red-headband",
+      "reference": "assets/hmong/club/dances-male-red-headband-v1.png",
+      "file": "public/assets/hmong/club/dances-male-red-headband-extended-v1.png",
+      "generated": "/home/hanhdinho/.codex/generated_images/01a1e29c-fc4e-7820-9dc2-9506617adbba/exec-d15f4ff6-0058-4693-a959-dc1b49b8ebcd.png",
+      "repair": true
+    },
+    {
+      "id": "male-white-blue",
+      "reference": "assets/hmong/club/dances-male-white-blue-v1.png",
+      "file": "public/assets/hmong/club/dances-male-white-blue-extended-v1.png",
+      "generated": "/home/hanhdinho/.codex/generated_images/01a1e29c-fc4e-7820-9dc2-9506617adbba/exec-fcf4993a-6257-4cc6-95b4-bd01682511f7.png"
+    },
+    {
+      "id": "female-blue-bun",
+      "reference": "assets/hmong/club/dances-female-blue-bun-v1.png",
+      "file": "public/assets/hmong/club/dances-female-blue-bun-extended-v1.png",
+      "generated": "/home/hanhdinho/.codex/generated_images/01a1e29c-fc4e-7820-9dc2-9506617adbba/exec-1b607705-093d-46eb-8d3d-7aca79ca3df8.png",
+      "repair": true
+    },
+    {
+      "id": "female-blue-crown",
+      "reference": "assets/hmong/club/dances-female-blue-crown-v1.png",
+      "file": "public/assets/hmong/club/dances-female-blue-crown-extended-v1.png",
+      "generated": "/home/hanhdinho/.codex/generated_images/01a1e29c-fc4e-7820-9dc2-9506617adbba/exec-7891e340-ef50-4d1f-9874-f3966a3009a7.png"
+    },
+    {
+      "id": "female-red-bun",
+      "reference": "assets/hmong/club/dances-female-red-bun-v1.png",
+      "file": "public/assets/hmong/club/dances-female-red-bun-extended-v1.png",
+      "generated": "/home/hanhdinho/.codex/generated_images/01a1e29c-fc4e-7820-9dc2-9506617adbba/exec-987d1f5c-df97-45bb-99d2-d206183f214a.png"
+    },
+    {
+      "id": "female-white-headdress",
+      "reference": "assets/hmong/club/dances-female-white-headdress-v1.png",
+      "file": "public/assets/hmong/club/dances-female-white-headdress-extended-v1.png",
+      "generated": "/home/hanhdinho/.codex/generated_images/01a1e29c-fc4e-7820-9dc2-9506617adbba/exec-a6594297-939a-4c42-98eb-7678e8e8c77d.png"
+    },
+    {
+      "id": "female-red-twinbuns",
+      "reference": "assets/hmong/club/dances-female-red-twinbuns-v1.png",
+      "file": "public/assets/hmong/club/dances-female-red-twinbuns-extended-v1.png",
+      "generated": "/home/hanhdinho/.codex/generated_images/01a1e29c-fc4e-7820-9dc2-9506617adbba/exec-28395dd9-0b7c-4950-adbb-a2201fc893c7.png"
+    },
+    {
+      "id": "female-white-blue-hat",
+      "reference": "assets/hmong/club/dances-female-white-blue-hat-v1.png",
+      "file": "public/assets/hmong/club/dances-female-white-blue-hat-extended-v1.png",
+      "generated": "/home/hanhdinho/.codex/generated_images/01a1e29c-fc4e-7820-9dc2-9506617adbba/exec-f0d375c8-9f02-4064-8875-2b75958e2d9b.png",
+      "repair": true
+    }
+  ],
+  "repairPrompt": "Create a production ANIMATION SPRITE SHEET for the EXACT SAME single Hmong chibi character as the supplied reference. Reference is identity/costume only: preserve face, hairstyle/headdress, gender, all clothing colors, embroidery and accessories exactly. New asset, not replacement. Square image, EXACTLY SIX EQUAL COLUMNS and SIX EQUAL ROWS, 36 full-body poses. Each character same scale, centered in its cell, full head and shoes inside cell with 8% transparent padding on ALL sides, sole baseline 90% of cell height. Fixed FRONT orthographic camera, premium soft 3D chibi illustration matching reference. Genuine clean transparent RGBA background, no floor/shadows/glow, no colored fringe/no text/no grid. Exactly ONE character per cell. THREE LOOPING dances of TWELVE incremental frames each; read left-to-right then down. First TWO ROWS (frames 0-11): BOTH HANDS firmly REST ON HIPS, elbows out, playful lateral HIP SWAY with alternating knee bends, belt/pelvis left-center-right-center, chest counterbalances, head steady; cheerful nonsexual dance. Middle TWO ROWS (12-23): SHOULDER GROOVE with hands near waist, shoulders alternate rising/dropping, soft knee bounce and alternating heel lifts. Last TWO ROWS (24-35): SIDE STEP-TOUCH WITH OPPOSITE ARM SWING: step left, right taps in, step right, left taps in; bent arms sweep opposite to steps. Every group is ONE fluid closed cycle, each successive frame small incremental motion; last pose connects naturally to first, no duplicate endpoint. Keep clean anatomy, consistent costume and body proportions, two hands/two feet, no random disconnected poses, no other characters, no clipping or crossing cell borders. Important generous padding at bottom row and all edges. NO red, pink or any colored matte fringe in transparency.\nCRITICAL LAYOUT: SIX ROWS, not five! This is 36 separate poses, NOT 30. Use all SIX rows with equal vertical spacing. Make the character only 75% of the height of each square cell to leave ample clearance. Image 1 supplies ONLY the 6x6 layout; image 2 is the ONLY source of character identity/clothes/gender, so do not borrow the boy from image 1. Transparency must be alpha=0 outside the character, never opaque white.",
+  "notes": "Final PNGs copied into public/assets/hmong/club. Actual output size: 1254×1254 RGBA. Runtime reads calibrated rowBounds, rowScales and supporting framePivots; source PNGs are unchanged. The base prompt applies to all assets except the first asset prompt override. Repaired assets use repairPrompt and two references: first male-daily extended layout, second their original identity atlas; padding repair has its own prompt and input path."
+}

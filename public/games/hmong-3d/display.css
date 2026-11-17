@@ -1,0 +1,56 @@
+.display-overlay .overlay-footer,.display-overlay .music-bar,.display-overlay .mc-bar,.display-overlay .scene-heading,.display-overlay .scene-note,.display-overlay .dance-help{display:none}.audio-unlock{position:fixed;bottom:24px;right:24px;padding:12px 18px;background:#6d348c;color:#fff;border:1px solid #d4a1ef;border-radius:10px;cursor:pointer;font:13px system-ui}.audio-unlock[hidden],.clean-overlay .audio-unlock{display:none}
+
+.show-caption{position:fixed;bottom:12%;left:50%;transform:translateX(-50%);z-index:8;max-width:90vw;width:max-content;padding:12px 22px;border:1px solid #e9b96988;border-radius:24px;background:linear-gradient(110deg,#211036ed,#111326ed);color:#fff3da;font:600 clamp(12px,2vw,19px) system-ui;text-align:center;box-shadow:0 0 32px #b54bf044;pointer-events:none;overflow-wrap:anywhere}.show-caption[hidden]{display:none}
+
+/* Keep the stream's focal area clear on phones and around display cutouts. */
+@media(max-aspect-ratio:3/4){
+ .overlay-header{top:max(12px,env(safe-area-inset-top));left:max(12px,env(safe-area-inset-left));right:max(12px,env(safe-area-inset-right));gap:7px}
+ .display-overlay .identity{font-size:clamp(12px,2.8vw,26px);gap:7px}.display-overlay .identity-mark{width:30px;height:30px;font-size:21px}
+ .display-overlay .connection{max-width:46vw;padding:6px 8px;font-size:clamp(8px,1.8vw,18px);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+ .show-caption{max-width:88vw;bottom:calc(10% + env(safe-area-inset-bottom));padding:9px 14px;font-size:clamp(12px,2.8vw,30px)}
+ .display-overlay .three-feed{left:12px;bottom:calc(16% + env(safe-area-inset-bottom));max-width:47vw}
+ .display-overlay .three-feed p{font-size:clamp(10px,2.4vw,24px);padding:6px 8px;margin:5px 0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+ .display-overlay .three-feed p:nth-child(n+4){display:none}
+ .audio-unlock{bottom:calc(16px + env(safe-area-inset-bottom));right:12px}
+}
+
+.dj-hint{position:fixed;bottom:calc(3% + env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);width:max-content;max-width:90vw;padding:8px 14px;border:1px solid #45eaff55;border-radius:18px;background:#10162bcb;color:#e4faff;font:600 clamp(10px,2.4vw,16px) system-ui;text-align:center;pointer-events:none}.clean-overlay .dj-hint{display:none}
+
+/* The display is a portrait source, including when opened on a desktop. */
+html{background:#03030c}
+body[data-layout="portrait"]{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:min(100vw,56.25dvh);height:min(100dvh,177.777778vw);overflow:hidden;background:#03030c}
+body[data-layout="portrait"] .overlay-header{top:12px;left:12px;right:12px;display:flex;flex-wrap:wrap;gap:8px;z-index:9}
+body[data-layout="portrait"] .identity{font-size:14px;gap:7px}
+body[data-layout="portrait"] .identity-mark{width:28px;height:28px;font-size:20px}
+body[data-layout="portrait"] .connection{flex-basis:100%;max-width:100%;font-size:12px;line-height:1.5;padding:9px 12px;border-radius:12px;white-space:normal;overflow-wrap:anywhere;text-overflow:clip;color:#fff;background:#161528ed}
+.connection[data-state="connected"]{border-color:#40d997;color:#baffdf}
+.connection[data-state="connected"]::before{background:#40d997}
+.connection[data-state="connected"]{display:none}
+/* Connection diagnostics belong to the dashboard, never the live audience. */
+#connection{display:none!important}
+.connection[data-state="error"],.connection[data-state="disconnected"]{border-color:#ff7380;color:#ffd0d5}
+.connection[data-state="error"]::before,.connection[data-state="disconnected"]::before{background:#ff7380}
+.connection[data-state="connecting"],.connection[data-state="reconnecting"]{border-color:#ffc56a;color:#ffe0a5}
+body[data-layout="portrait"] .dj-hint{max-width:94%;width:94%;font-size:12px}
+body[data-layout="portrait"] .show-caption{max-width:92%;font-size:14px}
+body[data-layout="portrait"]{container-type:inline-size}
+.player-names{position:absolute;inset:0;pointer-events:none;z-index:5;overflow:hidden}
+.player-name{position:absolute;transform:translate(-50%,-100%);max-width:30%;width:max-content;padding:1px 3px;border:1px solid #ffffff50;border-radius:4px;background:#090c18df;color:#fff;font:600 clamp(8px,2cqw,22px)/1.2 system-ui;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-shadow:0 1px 2px #000;box-shadow:0 1px 4px #0007}
+.player-name[hidden]{display:none}
+#djHint{display:none}
+.gift-guide{position:absolute;top:auto;bottom:1.5%;left:3%;right:3%;width:auto;height:auto;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px;padding:7px;background:#080c19ed;border:1px solid #819bd655;border-radius:12px;z-index:8;pointer-events:none}
+.gift-guide-card{display:flex;flex-direction:column;align-items:center;gap:2px;text-align:center;min-width:0;color:#f3f7ff;font:500 clamp(9px,2.5cqw,27px)/1.2 system-ui}
+.gift-guide-card img{width:clamp(26px,8cqw,86px);height:clamp(26px,8cqw,86px);object-fit:contain;filter:drop-shadow(0 2px 3px #0009)}
+.gift-guide-card strong{font-weight:700;white-space:nowrap}
+.overlay-header #giftGuide{position:static;inset:auto;order:-1;flex-basis:100%;width:100%;height:auto;margin:0;padding:4px 2px;gap:1px;grid-template-columns:repeat(9,minmax(0,1fr));border-radius:0 0 8px 8px}
+.overlay-header #giftGuide img{width:clamp(22px,5.3cqw,57px);height:clamp(22px,5.3cqw,57px)}
+.overlay-header #giftGuide .gift-guide-card{font-size:clamp(8px,2.2cqw,24px)}
+body[data-layout="portrait"] .overlay-header{top:0;left:0;right:0;gap:5px}
+body[data-layout="portrait"] .overlay-header .identity{display:none}
+body[data-layout="portrait"] .overlay-header .connection{margin:0 8px;flex-basis:calc(100% - 16px)}
+body[data-layout="portrait"] .identity{font-size:11px;opacity:.8}
+body[data-layout="portrait"] .identity small{display:none}
+body[data-layout="portrait"] .connection{font-size:clamp(11px,3cqw,30px);padding:6px 9px}
+body[data-layout="portrait"] .three-feed{display:none}
+body[data-layout="portrait"] .dj-hint{font-size:clamp(11px,3.2cqw,34px);background:#080c18ec}
+body[data-layout="portrait"] .show-caption{font-size:clamp(13px,3.8cqw,40px)}

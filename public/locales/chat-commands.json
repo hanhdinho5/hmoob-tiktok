@@ -1,0 +1,54 @@
+{
+ "notes": "Lệnh bình luận luôn nhận cả hai ngôn ngữ, không phụ thuộc ngôn ngữ giao diện. H’Mông chỉ dùng câu mẫu do người dùng cung cấp; giữ nguyên chữ chỉ thanh ở cuối âm tiết.",
+ "intents": {
+  "hello": {
+   "vi": [
+    "xin chào",
+    "chào",
+    "chào bạn"
+   ],
+   "hmn": [
+    "nyob zoo"
+   ],
+   "source": "user-provided"
+  },
+  "thanks": {
+   "vi": [
+    "cảm ơn",
+    "cảm ơn bạn"
+   ],
+   "hmn": [
+    "ua tsaug"
+   ],
+   "source": "user-provided"
+  },
+  "love": {
+   "vi": [
+    "tôi yêu bạn"
+   ],
+   "hmn": [
+    "kuv hlub koj"
+   ],
+   "source": "user-provided"
+  },
+  "goodbye": {
+   "vi": [
+    "hẹn gặp lại",
+    "tạm biệt"
+   ],
+   "hmn": [
+    "sib ntsib dua"
+   ],
+   "source": "user-provided"
+  },
+  "wellbeing": {
+   "vi": [
+    "bạn khỏe không"
+   ],
+   "hmn": [
+    "koj nyob li cas"
+   ],
+   "source": "user-provided"
+  }
+ }
+}

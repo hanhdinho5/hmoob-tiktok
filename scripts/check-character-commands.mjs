@@ -1,0 +1,20 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import * as THREE from 'three';
+import { genderCommand, characterGender } from '../public/games/hmong-3d/character-commands.js';
+import { Characters } from '../public/games/hmong-3d/characters.js';
+import { EventRouter } from '../public/games/hmong-3d/event-router.js';
+const config=JSON.parse(fs.readFileSync('public/games/hmong-3d/config.json','utf8'));
+for(const [text,expected]of [['nam','male'],['NỮ!','female'],['nu','female'],['!nữ','female'],[' NAM ','male'],['Việt Nam',null],['nam @bob',null],['nữ abc',null],['nam nữ',null]])assert.equal(genderCommand(text),expected,text);
+globalThis.innerWidth=1280;globalThis.innerHeight=720;globalThis.HmongI18n={t:key=>key};globalThis.HmongChat={intent:()=>null};globalThis.HmongAssets={voice(){}};globalThis.window={removeEventListener(){}};
+const manager=new Characters(new THREE.Scene(),config);manager.mode='crowd';manager.sequenceTextures=new Map();
+manager.templates=config.characters.map(descriptor=>{const scene=new THREE.Group(),sprite=new THREE.Sprite(new THREE.SpriteMaterial());sprite.name='CharacterArt';sprite.scale.set(2.8,2.8,1);scene.add(sprite);return {billboard:true,scene,descriptor:{id:descriptor.id}};});
+manager.label=()=>new THREE.Sprite(new THREE.SpriteMaterial({map:new THREE.Texture()}));
+manager.add({uniqueId:'alice'},1);manager.add({uniqueId:'bob'},0);const router=new EventRouter(manager,{celebrate(){}},config),alice={uniqueId:'alice'},bobIndex=manager.items.get('bob').index;
+router.route('chat',{user:alice,comment:'nhảy 2'});router.route('chat',{user:alice,comment:'nam'});const item=manager.items.get('alice');assert.equal(characterGender(config.characters[item.index]),'male');assert.equal(item.animation.base,'danceB');assert.equal(item.selectedGender,'male');assert.equal(manager.items.get('bob').index,bobIndex);
+const firstMale=item.index;router.route('chat',{user:alice,comment:'nam'});assert.equal(item.index,firstMale,'same command should keep current matching avatar');item.showLocked=true;router.route('chat',{user:alice,comment:'nữ'});assert.equal(item.showLocked,true);assert.equal(characterGender(config.characters[item.index]),'female');assert.equal(item.animation.base,'danceB');
+for(let i=0;i<25;i++){manager.changeVariant(item,manager.nextVariant(item));assert.equal(characterGender(config.characters[item.index]),'female','gift changes respect chosen gender');}
+const before=item.index;manager.changeVariant(item,0);assert.equal(item.index,before,'other variant requests cannot override preference');
+const fresh={uniqueId:'fresh'};router.route('chat',{user:fresh,comment:'nhảy 3'});router.route('chat',{user:fresh,comment:'nu'});manager.request(fresh,'gift');manager.pending.get('fresh').simulated=true;manager.update(.03);const spawned=manager.items.get('fresh');assert.equal(characterGender(config.characters[spawned.index]),'female');assert.equal(spawned.selectedGender,'female');assert.equal(spawned.animation.base,'danceC');assert.equal(spawned.simulated,true);
+manager.mode='stage';router.route('chat',{user:alice,comment:'nam'});assert.equal(item.index,before,'crowd commands cannot alter stage performers');manager.dispose();
+console.log('PASS: nam/nữ/nu commands, exact matching, sender isolation, pre-spawn preference, dance retention, active-show safety and gender-safe gift changes.');

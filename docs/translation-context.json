@@ -1,0 +1,1487 @@
+{
+  "home.html.1": {
+    "context": "public/index.html: texte HTML",
+    "original": "TikTok Live Games - Interactive Overlay Platform",
+    "vi": "H’Mông LIVE — Không gian tương tác"
+  },
+  "home.html.3": {
+    "context": "public/index.html: texte HTML",
+    "original": "TikTok Live Games",
+    "vi": "H’Mông LIVE"
+  },
+  "home.html.4": {
+    "context": "public/index.html: texte HTML",
+    "original": "Games",
+    "vi": "Trò chơi"
+  },
+  "home.html.5": {
+    "context": "public/index.html: texte HTML",
+    "original": "Debug",
+    "vi": "Kiểm tra sự kiện"
+  },
+  "home.html.6": {
+    "context": "public/index.html: texte HTML",
+    "original": "Crowd Control",
+    "vi": "Điều khiển sân bản"
+  },
+  "home.html.7": {
+    "context": "public/index.html: texte HTML",
+    "original": "Stats",
+    "vi": "Thống kê"
+  },
+  "home.html.8": {
+    "context": "public/index.html: texte HTML",
+    "original": "Create Game Overlays for TikTok Live",
+    "vi": "Mang không khí hội bản vào LIVE của bạn"
+  },
+  "home.html.9": {
+    "context": "public/index.html: texte HTML",
+    "original": "Turn your livestream into an interactive experience. Viewers send gifts to play games in real-time while you stream!",
+    "vi": "Không gian gặp gỡ dành cho cộng đồng H’Mông. Cùng trò chuyện, gửi quà và chơi ngay trong buổi LIVE."
+  },
+  "home.html.10": {
+    "context": "public/index.html: texte HTML",
+    "original": "📱 Your TikTok Username",
+    "vi": "01 · Tài khoản TikTok của bạn"
+  },
+  "home.html.11": {
+    "context": "public/index.html: placeholder",
+    "original": "Ex: streamer_vn (no @ needed)",
+    "vi": "Ví dụ: ten_tiktok (không cần @)"
+  },
+  "home.html.12": {
+    "context": "public/index.html: texte HTML",
+    "original": "🎯 Select Game for Stream",
+    "vi": "02 · Chọn không gian LIVE"
+  },
+  "home.html.13": {
+    "context": "public/index.html: texte HTML",
+    "original": "NEW",
+    "vi": "TƯƠNG TÁC"
+  },
+  "home.html.15": {
+    "context": "Dance Club nâng cấp theo ảnh thứ hai của người dùng",
+    "original": "Dance Club · Người xem",
+    "vi": "Dance Club · Người xem"
+  },
+  "home.html.16": {
+    "context": "Dance Club nâng cấp theo ảnh thứ hai của người dùng",
+    "original": "Mỗi người xem là một nhân vật chibi trong club LED. Bình luận và quà tạo chuyển động, hiệu ứng.",
+    "vi": "Mỗi người xem là một nhân vật chibi trong club LED. Bình luận và quà tạo chuyển động, hiệu ứng."
+  },
+  "home.html.17": {
+    "context": "public/index.html: texte HTML",
+    "original": "NEW",
+    "vi": "TƯƠNG TÁC"
+  },
+  "home.html.19": {
+    "context": "public/index.html: texte HTML",
+    "original": "Horse Racing",
+    "vi": "Hội đua ngựa"
+  },
+  "home.html.20": {
+    "context": "public/index.html: texte HTML",
+    "original": "Viewers send gifts to move horses! Each gift powers a different lane. First horse to the finish line wins!",
+    "vi": "Cổ vũ bằng bình luận và quà tặng. Năm đội cùng đua, ngựa về đích đầu tiên chiến thắng."
+  },
+  "home.html.22": {
+    "context": "public/index.html: texte HTML",
+    "original": "Wheel of Fortune",
+    "vi": "Vòng quay may mắn"
+  },
+  "home.html.23": {
+    "context": "public/index.html: texte HTML",
+    "original": "Coming Soon! Spin the wheel with gifts for prizes and surprises.",
+    "vi": "Sắp ra mắt · Vòng quay tương tác bằng quà tặng."
+  },
+  "home.html.25": {
+    "context": "public/index.html: texte HTML",
+    "original": "Quiz Battle",
+    "vi": "Đố vui cộng đồng"
+  },
+  "home.html.26": {
+    "context": "public/index.html: texte HTML",
+    "original": "Coming Soon! Chat-based trivia battles between viewers.",
+    "vi": "Sắp ra mắt · Cùng trả lời câu hỏi qua bình luận."
+  },
+  "home.html.27": {
+    "context": "public/index.html: texte HTML",
+    "original": "✨ Generate Game Link",
+    "vi": "Tạo liên kết LIVE ↗"
+  },
+  "home.html.28": {
+    "context": "public/index.html: texte HTML",
+    "original": "🔗 Overlay Link for OBS / TikTok Studio:",
+    "vi": "Liên kết cho OBS / TikTok LIVE Studio"
+  },
+  "home.html.29": {
+    "context": "public/index.html: texte HTML",
+    "original": "📋 Copy",
+    "vi": "Sao chép"
+  },
+  "home.html.30": {
+    "context": "public/index.html: texte HTML",
+    "original": "💡 Instructions:",
+    "vi": "Đưa không gian vào buổi LIVE"
+  },
+  "home.html.31": {
+    "context": "public/index.html: texte HTML",
+    "original": "Copy the link above",
+    "vi": "Sao chép liên kết ở trên."
+  },
+  "home.html.32": {
+    "context": "public/index.html: texte HTML",
+    "original": "Open OBS or TikTok Studio",
+    "vi": "Mở OBS hoặc TikTok LIVE Studio."
+  },
+  "home.html.33": {
+    "context": "public/index.html: texte HTML",
+    "original": "Add a new Browser Source",
+    "vi": "Thêm Browser Source trong OBS hoặc nguồn Link trong LIVE Studio."
+  },
+  "home.html.34": {
+    "context": "public/index.html: texte HTML",
+    "original": "Paste the link into the URL field",
+    "vi": "Dán liên kết vào ô URL."
+  },
+  "home.html.35": {
+    "context": "public/index.html: texte HTML",
+    "original": "Set dimensions: 1920x1080 (or custom)",
+    "vi": "Chọn 1080 × 1920 cho màn hình dọc hoặc 1920 × 1080 cho màn hình ngang."
+  },
+  "home.html.36": {
+    "context": "public/index.html: texte HTML",
+    "original": "Start livestreaming — viewers send gifts to race!",
+    "vi": "Bắt đầu LIVE; tải lại nguồn nếu chưa kết nối. Giữ server chạy suốt buổi."
+  },
+  "home.html.37": {
+    "context": "public/index.html: texte HTML",
+    "original": "TikTok Live Games v2 &copy; 2026 | Made with 💖 for Streamers Worldwide",
+    "vi": "H’Mông LIVE · Cùng gặp gỡ, cùng sẻ chia · 2026"
+  },
+  "home.html.38": {
+    "context": "public/index.html: texte HTML",
+    "original": "✅ Link copied!",
+    "vi": "Đã sao chép liên kết!"
+  },
+  "debug.html.1": {
+    "context": "public/debug.html: texte HTML",
+    "original": "TikTok Bridge Debugger",
+    "vi": "H’Mông LIVE · Kiểm tra sự kiện"
+  },
+  "debug.html.2": {
+    "context": "public/debug.html: texte HTML",
+    "original": "TikTok Bridge Debugger",
+    "vi": "H’Mông LIVE · Kiểm tra sự kiện"
+  },
+  "debug.html.3": {
+    "context": "public/debug.html: placeholder",
+    "original": "Enter TikTok Username (e.g. jessicabalester)",
+    "vi": "Nhập tên tài khoản TikTok"
+  },
+  "debug.html.4": {
+    "context": "public/debug.html: texte HTML",
+    "original": "Connect",
+    "vi": "Kết nối"
+  },
+  "debug.html.5": {
+    "context": "public/debug.html: texte HTML",
+    "original": "Waiting for connection...",
+    "vi": "Đang chờ kết nối…"
+  },
+  "crowd.html.1": {
+    "context": "public/games/virtual-crowd/index.html: texte HTML",
+    "original": "Virtual Crowd — TikTok Live",
+    "vi": "H’Mông LIVE · Sân bản"
+  },
+  "crowd.html.2": {
+    "context": "Nhãn truy cập / mô tả trang / nhãn thương hiệu",
+    "original": "crowd.html.2",
+    "vi": "Sân bản tương tác TikTok"
+  },
+  "crowd.html.3": {
+    "context": "public/games/virtual-crowd/index.html: texte HTML",
+    "original": "LIVE",
+    "vi": "LIVE"
+  },
+  "crowd.html.4": {
+    "context": "public/games/virtual-crowd/index.html: texte HTML",
+    "original": "VIRTUAL CROWD",
+    "vi": "H’MÔNG LIVE"
+  },
+  "crowd.html.5": {
+    "context": "public/games/virtual-crowd/index.html: texte HTML",
+    "original": "ĐANG KẾT NỐI",
+    "vi": "ĐANG KẾT NỐI"
+  },
+  "crowd.html.6": {
+    "context": "public/games/virtual-crowd/index.html: texte HTML",
+    "original": "🔊 ÂM THANH",
+    "vi": "🔊 ÂM THANH"
+  },
+  "crowd.html.7": {
+    "context": "public/games/virtual-crowd/index.html: texte HTML",
+    "original": "0 NHÂN VẬT",
+    "vi": "0 NHÂN VẬT"
+  },
+  "crowd.html.8": {
+    "context": "public/games/virtual-crowd/index.html: texte HTML",
+    "original": "TƯƠNG TÁC",
+    "vi": "TƯƠNG TÁC"
+  },
+  "crowd.html.10": {
+    "context": "public/games/virtual-crowd/index.html: texte HTML",
+    "original": "CHAT",
+    "vi": "BÌNH LUẬN"
+  },
+  "crowd.html.11": {
+    "context": "public/games/virtual-crowd/index.html: texte HTML",
+    "original": "Bong bóng thoại",
+    "vi": "Bong bóng thoại"
+  },
+  "crowd.html.13": {
+    "context": "public/games/virtual-crowd/index.html: texte HTML",
+    "original": "THẢ TIM",
+    "vi": "THẢ TIM"
+  },
+  "crowd.html.14": {
+    "context": "public/games/virtual-crowd/index.html: texte HTML",
+    "original": "Hiệu ứng tim",
+    "vi": "Hiệu ứng tim"
+  },
+  "crowd.html.16": {
+    "context": "public/games/virtual-crowd/index.html: texte HTML",
+    "original": "TẶNG QUÀ",
+    "vi": "TẶNG QUÀ"
+  },
+  "crowd.html.17": {
+    "context": "public/games/virtual-crowd/index.html: texte HTML",
+    "original": "Spotlight nhân vật",
+    "vi": "Làm nổi bật người tặng"
+  },
+  "crowd.html.19": {
+    "context": "public/games/virtual-crowd/index.html: texte HTML",
+    "original": "QUÀ LỚN",
+    "vi": "QUÀ LỚN"
+  },
+  "crowd.html.20": {
+    "context": "public/games/virtual-crowd/index.html: texte HTML",
+    "original": "Pháo hoa sân khấu",
+    "vi": "Pháo hoa sân khấu"
+  },
+  "crowd.html.22": {
+    "context": "public/games/virtual-crowd/index.html: texte HTML",
+    "original": "Đang chờ khán giả vào LIVE...",
+    "vi": "Đang chờ khán giả vào LIVE..."
+  },
+  "crowd.html.23": {
+    "context": "public/games/virtual-crowd/index.html: texte HTML",
+    "original": "Mỗi viewer sẽ trở thành một nhân vật trên sân khấu",
+    "vi": "Mỗi người xem là một người bạn trong sân bản"
+  },
+  "control.html.1": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "Virtual Crowd Control",
+    "vi": "H’Mông LIVE · Điều khiển sân bản"
+  },
+  "control.html.2": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "VIRTUAL CROWD",
+    "vi": "H’MÔNG LIVE"
+  },
+  "control.html.3": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "CONTROL CENTER",
+    "vi": "ĐIỀU KHIỂN SÂN BẢN"
+  },
+  "control.html.4": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "SERVER OFFLINE",
+    "vi": "SERVER CHƯA KẾT NỐI"
+  },
+  "control.html.6": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "Kết nối overlay",
+    "vi": "Kết nối overlay"
+  },
+  "control.html.7": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "TikTok username",
+    "vi": "Tên tài khoản TikTok"
+  },
+  "control.html.8": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "Overlay URL",
+    "vi": "Liên kết hiển thị"
+  },
+  "control.html.9": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "SAO CHÉP URL",
+    "vi": "SAO CHÉP URL"
+  },
+  "control.html.10": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "MỞ OVERLAY ↗",
+    "vi": "MỞ OVERLAY ↗"
+  },
+  "control.html.12": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "Âm thanh",
+    "vi": "Âm thanh"
+  },
+  "control.html.13": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "Bật âm thanh",
+    "vi": "Bật âm thanh"
+  },
+  "control.html.14": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "Âm lượng",
+    "vi": "Âm lượng"
+  },
+  "control.html.16": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "TEST ÂM THANH",
+    "vi": "THỬ ÂM THANH"
+  },
+  "control.html.18": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "Nhân vật",
+    "vi": "Nhân vật"
+  },
+  "control.html.19": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "Kích thước",
+    "vi": "Kích thước"
+  },
+  "control.html.21": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "Tối đa",
+    "vi": "Tối đa"
+  },
+  "control.html.23": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "XÓA TOÀN BỘ NHÂN VẬT",
+    "vi": "XÓA TOÀN BỘ NHÂN VẬT"
+  },
+  "control.html.25": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "Ánh sáng club",
+    "vi": "Ánh sáng hội bản"
+  },
+  "control.html.26": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "Cường độ",
+    "vi": "Cường độ"
+  },
+  "control.html.28": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "Tốc độ xoay",
+    "vi": "Tốc độ xoay"
+  },
+  "control.html.30": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "Bảng tương tác",
+    "vi": "Bảng tương tác"
+  },
+  "control.html.31": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "Event feed",
+    "vi": "Bảng sự kiện"
+  },
+  "control.html.33": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "Test action trực tiếp",
+    "vi": "Thử tương tác trực tiếp"
+  },
+  "control.html.34": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "👤 VIEWER VÀO",
+    "vi": "👤 Người xem vào"
+  },
+  "control.html.35": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "💬 CHAT",
+    "vi": "💬 Bình luận"
+  },
+  "control.html.36": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "❤️ LIKE",
+    "vi": "❤️ Thả tim"
+  },
+  "control.html.37": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "📣 SHARE",
+    "vi": "📣 Chia sẻ"
+  },
+  "control.html.38": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "🌹 QUÀ NHỎ",
+    "vi": "🌹 QUÀ NHỎ"
+  },
+  "control.html.39": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "🎤 QUÀ VỪA",
+    "vi": "🎤 QUÀ VỪA"
+  },
+  "control.html.40": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "🎸 QUÀ LỚN",
+    "vi": "🎸 QUÀ LỚN"
+  },
+  "control.html.42": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "Trạng thái điều khiển",
+    "vi": "Trạng thái điều khiển"
+  },
+  "control.html.43": {
+    "context": "public/games/virtual-crowd/dashboard.html: texte HTML",
+    "original": "Dashboard sẵn sàng.",
+    "vi": "Bảng điều khiển sẵn sàng."
+  },
+  "race.html.1": {
+    "context": "public/games/horse-racing/index.html: texte HTML",
+    "original": "Horse Racing - TikTok Live Games",
+    "vi": "H’Mông LIVE · Hội đua ngựa"
+  },
+  "race.html.2": {
+    "context": "public/games/horse-racing/index.html: texte HTML",
+    "original": "Waiting for gifts...",
+    "vi": "Đang chờ quà hoặc bình luận…"
+  },
+  "common.hello": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Xin chào!",
+    "vi": "Xin chào!"
+  },
+  "common.thanks": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Cảm ơn!",
+    "vi": "Cảm ơn!"
+  },
+  "common.sorry": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Xin lỗi.",
+    "vi": "Xin lỗi."
+  },
+  "common.goodbye": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Hẹn gặp lại!",
+    "vi": "Hẹn gặp lại!"
+  },
+  "common.howAreYou": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Bạn khỏe không?",
+    "vi": "Bạn khỏe không?"
+  },
+  "common.well": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Tôi khỏe.",
+    "vi": "Tôi khỏe."
+  },
+  "common.yourName": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Bạn tên là gì?",
+    "vi": "Bạn tên là gì?"
+  },
+  "common.myName": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Tôi tên là Hạnh.",
+    "vi": "Tôi tên là Hạnh."
+  },
+  "common.love": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Tôi yêu bạn.",
+    "vi": "Tôi yêu bạn."
+  },
+  "common.beautiful": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Bạn rất xinh đẹp.",
+    "vi": "Bạn rất xinh đẹp."
+  },
+  "common.home": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Về trang chủ",
+    "vi": "Về trang chủ"
+  },
+  "home.demo": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Xem sân bản thử ↗",
+    "vi": "Xem sân bản thử ↗"
+  },
+  "home.needUsername": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Hãy nhập tên tài khoản TikTok.",
+    "vi": "Hãy nhập tên tài khoản TikTok."
+  },
+  "home.invalidUsername": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Tên tài khoản chỉ gồm chữ cái, số, dấu gạch dưới và dấu chấm.",
+    "vi": "Tên tài khoản chỉ gồm chữ cái, số, dấu gạch dưới và dấu chấm."
+  },
+  "home.generated": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Đã tạo liên kết!",
+    "vi": "Đã tạo liên kết!"
+  },
+  "home.generate": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Tạo liên kết LIVE ↗",
+    "vi": "Tạo liên kết LIVE ↗"
+  },
+  "home.copied": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Đã sao chép liên kết!",
+    "vi": "Đã sao chép liên kết!"
+  },
+  "home.copy": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Sao chép",
+    "vi": "Sao chép"
+  },
+  "home.copyError": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Không thể sao chép. Hãy chọn và sao chép liên kết thủ công.",
+    "vi": "Không thể sao chép. Hãy chọn và sao chép liên kết thủ công."
+  },
+  "crowd.soundOn": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "🔊 ÂM THANH",
+    "vi": "🔊 ÂM THANH"
+  },
+  "crowd.soundOff": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "🔇 ĐÃ TẮT",
+    "vi": "🔇 ĐÃ TẮT"
+  },
+  "status.connected": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "LIVE ĐÃ KẾT NỐI",
+    "vi": "LIVE ĐÃ KẾT NỐI"
+  },
+  "status.reconnecting": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "ĐANG KẾT NỐI LẠI",
+    "vi": "ĐANG KẾT NỐI LẠI"
+  },
+  "status.disconnected": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "MẤT KẾT NỐI",
+    "vi": "MẤT KẾT NỐI"
+  },
+  "status.error": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "LỖI KẾT NỐI",
+    "vi": "LỖI KẾT NỐI"
+  },
+  "status.connectError": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Không thể kết nối TikTok. Kiểm tra username và trạng thái LIVE rồi thử lại.",
+    "vi": "Không thể kết nối TikTok. Kiểm tra username và trạng thái LIVE rồi thử lại."
+  },
+  "crowd.share": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "📣 {name} đã chia sẻ LIVE",
+    "vi": "📣 {name} đã chia sẻ LIVE"
+  },
+  "crowd.gift": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "{emoji} {name} tặng {gift} ×{count}",
+    "vi": "{emoji} {name} tặng {gift} ×{count}"
+  },
+  "crowd.queue": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "+{count} hiệu ứng đang chờ",
+    "vi": "+{count} hiệu ứng đang chờ"
+  },
+  "crowd.count": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "{count} NHÂN VẬT",
+    "vi": "{count} NHÂN VẬT"
+  },
+  "crowd.demo": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "CHẾ ĐỘ THỬ",
+    "vi": "CHẾ ĐỘ THỬ"
+  },
+  "crowd.testUser": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Người xem thử {count}",
+    "vi": "Người xem thử {count}"
+  },
+  "control.sent": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Đã gửi: {action}",
+    "vi": "Đã gửi: {action}"
+  },
+  "control.failed": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Không gửi được lệnh. Hãy kiểm tra kết nối server.",
+    "vi": "Không gửi được lệnh. Hãy kiểm tra kết nối server."
+  },
+  "control.online": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "SERVER ĐÃ KẾT NỐI",
+    "vi": "SERVER ĐÃ KẾT NỐI"
+  },
+  "control.offline": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "SERVER CHƯA KẾT NỐI",
+    "vi": "SERVER CHƯA KẾT NỐI"
+  },
+  "control.connected": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Đã kết nối server",
+    "vi": "Đã kết nối server"
+  },
+  "control.disconnected": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Mất kết nối server",
+    "vi": "Mất kết nối server"
+  },
+  "control.ran": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Đã chạy {action}",
+    "vi": "Đã chạy {action}"
+  },
+  "control.cleared": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Đã xóa sân bản",
+    "vi": "Đã xóa sân bản"
+  },
+  "control.invalid": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Lệnh không hợp lệ",
+    "vi": "Lệnh không hợp lệ"
+  },
+  "race.vote": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Gõ {number}",
+    "vi": "Gõ {number}"
+  },
+  "race.finish": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "🏁 ĐÍCH",
+    "vi": "🏁 ĐÍCH"
+  },
+  "race.waiting": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "🏇 Đang chờ quà hoặc bình luận để bắt đầu…",
+    "vi": "🏇 Đang chờ quà hoặc bình luận để bắt đầu…"
+  },
+  "race.countdown": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "⏳ Chuẩn bị xuất phát…",
+    "vi": "⏳ Chuẩn bị xuất phát…"
+  },
+  "race.racing": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "🏁 ĐANG ĐUA!",
+    "vi": "🏁 ĐANG ĐUA!"
+  },
+  "race.finished": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "🎉 ĐÃ VỀ ĐÍCH!",
+    "vi": "🎉 ĐÃ VỀ ĐÍCH!"
+  },
+  "race.cooldown": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "⏳ Sắp bắt đầu vòng tiếp theo…",
+    "vi": "⏳ Sắp bắt đầu vòng tiếp theo…"
+  },
+  "race.winner": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "{name} chiến thắng!",
+    "vi": "{name} chiến thắng!"
+  },
+  "race.supporters": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Người cổ vũ nhiều nhất: {names}",
+    "vi": "Người cổ vũ nhiều nhất: {names}"
+  },
+  "race.lane0": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Đội Chàm",
+    "vi": "Đội Chàm"
+  },
+  "race.lane1": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Đội Núi",
+    "vi": "Đội Núi"
+  },
+  "race.lane2": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Đội Rừng",
+    "vi": "Đội Rừng"
+  },
+  "race.lane3": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Đội Nắng",
+    "vi": "Đội Nắng"
+  },
+  "race.lane4": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Đội Hoa",
+    "vi": "Đội Hoa"
+  },
+  "debug.stats": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Bình luận: {chat} | Quà: {gift} | Tim: {like} | Chia sẻ: {share}",
+    "vi": "Bình luận: {chat} | Quà: {gift} | Tim: {like} | Chia sẻ: {share}"
+  },
+  "debug.connecting": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Đang kết nối {name}…",
+    "vi": "Đang kết nối {name}…"
+  },
+  "debug.joined": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Đã vào phòng {room}",
+    "vi": "Đã vào phòng {room}"
+  },
+  "debug.gift": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "🎁 {name} tặng {gift} (id:{id}) ×{count} — {value}💎 [{tier}]",
+    "vi": "🎁 {name} tặng {gift} (id:{id}) ×{count} — {value}💎 [{tier}]"
+  },
+  "debug.like": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "❤️ {name} thả tim (+{count}, tổng: {total})",
+    "vi": "❤️ {name} thả tim (+{count}, tổng: {total})"
+  },
+  "debug.share": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "🔗 {name} đã chia sẻ LIVE",
+    "vi": "🔗 {name} đã chia sẻ LIVE"
+  },
+  "debug.retry": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "⏳ Kết nối lại lần {attempt} (chờ {delay} ms)…",
+    "vi": "⏳ Kết nối lại lần {attempt} (chờ {delay} ms)…"
+  },
+  "debug.error": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "❌ Không thể kết nối TikTok. Kiểm tra username và trạng thái LIVE.",
+    "vi": "❌ Không thể kết nối TikTok. Kiểm tra username và trạng thái LIVE."
+  },
+  "debug.disconnected": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "⚠️ TikTok LIVE đã ngắt kết nối",
+    "vi": "⚠️ TikTok LIVE đã ngắt kết nối"
+  },
+  "gift.small": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "quà nhỏ",
+    "vi": "quà nhỏ"
+  },
+  "gift.medium": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "quà vừa",
+    "vi": "quà vừa"
+  },
+  "gift.large": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "quà lớn",
+    "vi": "quà lớn"
+  },
+  "common.anonymous": {
+    "context": "Nội dung động / Canvas / thông báo; xem nơi gọi t(key)",
+    "original": "Người xem",
+    "vi": "Người xem"
+  },
+  "control.action.settings": {
+    "context": "Bảng điều khiển: tên hành động",
+    "original": "control.action.settings",
+    "vi": "Cài đặt"
+  },
+  "control.action.test": {
+    "context": "Bảng điều khiển: tên hành động",
+    "original": "control.action.test",
+    "vi": "Thử tương tác"
+  },
+  "control.action.clear": {
+    "context": "Bảng điều khiển: tên hành động",
+    "original": "control.action.clear",
+    "vi": "Xóa sân bản"
+  },
+  "common.language": {
+    "context": "Nhãn truy cập / mô tả trang / nhãn thương hiệu",
+    "original": "common.language",
+    "vi": "Ngôn ngữ"
+  },
+  "home.eyebrow": {
+    "context": "Nhãn truy cập / mô tả trang / nhãn thương hiệu",
+    "original": "home.eyebrow",
+    "vi": "H’MÔNG · MÙ CANG CHẢI · TIKTOK LIVE"
+  },
+  "home.description": {
+    "context": "Nhãn truy cập / mô tả trang / nhãn thương hiệu",
+    "original": "home.description",
+    "vi": "Không gian tương tác TikTok LIVE dành cho cộng đồng H’Mông: sân bản, hội đua ngựa, bình luận và quà tặng."
+  },
+  "three.title": {
+    "context": "2.5D character artwork on a 3D stage",
+    "original": "H’Mông Dance Club · Chibi 2.5D",
+    "vi": "H’Mông Dance Club · Chibi 2.5D"
+  },
+  "three.canvas": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Sân khấu 3D",
+    "vi": "Sân khấu 3D"
+  },
+  "three.tagline": {
+    "context": "Dance Club nâng cấp theo ảnh thứ hai của người dùng",
+    "original": "DANCE CLUB · NYOB ZOO!",
+    "vi": "DANCE CLUB · NYOB ZOO!"
+  },
+  "three.loading": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Đang dựng sân khấu…",
+    "vi": "Đang dựng sân khấu…"
+  },
+  "three.eyebrow": {
+    "context": "Dance Club nâng cấp theo ảnh thứ hai của người dùng",
+    "original": "H’MÔNG DANCE CLUB · LIVE",
+    "vi": "H’MÔNG DANCE CLUB · LIVE"
+  },
+  "three.stageMode": {
+    "context": "Dance Club nâng cấp theo ảnh thứ hai của người dùng",
+    "original": "Sáu người bạn · Cùng nhịp điệu",
+    "vi": "Sáu người bạn · Cùng nhịp điệu"
+  },
+  "three.crowdMode": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Mỗi người xem · Một nhân vật",
+    "vi": "Mỗi người xem · Một nhân vật"
+  },
+  "three.prototype": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Mẫu chibi thử nghiệm. Trang phục và điệu múa đang chờ duyệt văn hóa.",
+    "vi": "Mẫu chibi thử nghiệm. Trang phục và điệu múa đang chờ duyệt văn hóa."
+  },
+  "three.back2d": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Mở game 2D",
+    "vi": "Mở game 2D"
+  },
+  "three.fourCharacters": {
+    "context": "Dance Club nâng cấp theo ảnh thứ hai của người dùng",
+    "original": "6 NHÂN VẬT",
+    "vi": "6 NHÂN VẬT"
+  },
+  "three.fullscreen": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Toàn màn hình",
+    "vi": "Toàn màn hình"
+  },
+  "three.control": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Điều khiển ↗",
+    "vi": "Điều khiển ↗"
+  },
+  "three.adminTitle": {
+    "context": "Dance Club nâng cấp theo ảnh thứ hai của người dùng",
+    "original": "H’Mông Dance Club · Điều khiển",
+    "vi": "H’Mông Dance Club · Điều khiển"
+  },
+  "three.adminHeading": {
+    "context": "Unified game dashboard and clean TikTok LIVE Studio display; only two user-facing pages",
+    "original": "Điều khiển sàn nhảy",
+    "vi": "Điều khiển sàn nhảy"
+  },
+  "three.adminDescription": {
+    "context": "Unified game dashboard and clean TikTok LIVE Studio display; only two user-facing pages",
+    "original": "Thêm người, chọn điệu, thử bình luận và quà. Sao chép link trang hiển thị vào TikTok LIVE Studio.",
+    "vi": "Thêm người, chọn điệu, thử bình luận và quà. Sao chép link trang hiển thị vào TikTok LIVE Studio."
+  },
+  "three.connection": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Liên kết buổi LIVE",
+    "vi": "Liên kết buổi LIVE"
+  },
+  "three.username": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Username TikTok (để trống khi thử)",
+    "vi": "Username TikTok (để trống khi thử)"
+  },
+  "three.open": {
+    "context": "Unified game dashboard and clean TikTok LIVE Studio display; only two user-facing pages",
+    "original": "Mở trang hiển thị ↗",
+    "vi": "Mở trang hiển thị ↗"
+  },
+  "three.connectionHelp": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Nguồn Link trong LIVE Studio hoặc Browser Source trong OBS. Giữ server chạy.",
+    "vi": "Nguồn Link trong LIVE Studio hoặc Browser Source trong OBS. Giữ server chạy."
+  },
+  "three.sceneSettings": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Không gian & nhân vật",
+    "vi": "Không gian & nhân vật"
+  },
+  "three.mode": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Chế độ",
+    "vi": "Chế độ"
+  },
+  "three.theme": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Sân khấu",
+    "vi": "Sân khấu"
+  },
+  "three.terraces": {
+    "context": "Dance Club nâng cấp theo ảnh thứ hai của người dùng",
+    "original": "Dance Club · Tím xanh",
+    "vi": "Dance Club · Tím xanh"
+  },
+  "three.evening": {
+    "context": "Dance Club nâng cấp theo ảnh thứ hai của người dùng",
+    "original": "Dance Club · Ánh vàng",
+    "vi": "Dance Club · Ánh vàng"
+  },
+  "three.formation": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Đội hình crowd",
+    "vi": "Đội hình crowd"
+  },
+  "three.rows": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Theo hàng",
+    "vi": "Theo hàng"
+  },
+  "three.circle": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Vòng tròn",
+    "vi": "Vòng tròn"
+  },
+  "three.variant": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Mẫu nhân vật mới trong crowd",
+    "vi": "Mẫu nhân vật mới trong crowd"
+  },
+  "three.automatic": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Tự chọn",
+    "vi": "Tự chọn"
+  },
+  "three.maleDaily": {
+    "context": "Dance Club nâng cấp theo ảnh thứ hai của người dùng",
+    "original": "Nam · Áo chàm",
+    "vi": "Nam · Áo chàm"
+  },
+  "three.femaleDaily": {
+    "context": "Dance Club nâng cấp theo ảnh thứ hai của người dùng",
+    "original": "Nữ · Tóc búi",
+    "vi": "Nữ · Tóc búi"
+  },
+  "three.maleFestival": {
+    "context": "Dance Club nâng cấp theo ảnh thứ hai của người dùng",
+    "original": "Nam · Áo viền",
+    "vi": "Nam · Áo viền"
+  },
+  "three.femaleFestival": {
+    "context": "Dance Club nâng cấp theo ảnh thứ hai của người dùng",
+    "original": "Nữ · Khăn thêu",
+    "vi": "Nữ · Khăn thêu"
+  },
+  "three.limit": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Giới hạn crowd (cần đo trên máy thật)",
+    "vi": "Giới hạn crowd (cần đo trên máy thật)"
+  },
+  "three.effects": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Hiệu ứng sân khấu",
+    "vi": "Hiệu ứng sân khấu"
+  },
+  "three.animation": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Chuyển động & âm thanh",
+    "vi": "Chuyển động & âm thanh"
+  },
+  "three.target": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Nhân vật nhận lệnh",
+    "vi": "Nhân vật nhận lệnh"
+  },
+  "three.all": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Cả nhóm",
+    "vi": "Cả nhóm"
+  },
+  "three.baseAnimation": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Chuyển động mặc định",
+    "vi": "Chuyển động mặc định"
+  },
+  "three.sound": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Bật âm thanh (có thể cần bấm trong overlay)",
+    "vi": "Bật âm thanh (có thể cần bấm trong overlay)"
+  },
+  "three.volume": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Âm lượng",
+    "vi": "Âm lượng"
+  },
+  "three.testGift": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Thử quà 🌹",
+    "vi": "Thử quà 🌹"
+  },
+  "three.celebrate": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Ăn mừng ✦",
+    "vi": "Ăn mừng ✦"
+  },
+  "three.reset": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Dọn / đặt lại",
+    "vi": "Dọn / đặt lại"
+  },
+  "three.giftMapping": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Ánh xạ quà → nhân vật / chuyển động",
+    "vi": "Ánh xạ quà → nhân vật / chuyển động"
+  },
+  "three.giftHelp": {
+    "context": "Dance Club nâng cấp theo ảnh thứ hai của người dùng",
+    "original": "Dùng tên quà hoặc giftId. Quà đạt minimumValue được ưu tiên; target là 0–5 hoặc all.",
+    "vi": "Dùng tên quà hoặc giftId. Quà đạt minimumValue được ưu tiên; target là 0–5 hoặc all."
+  },
+  "three.mappingLabel": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Cấu hình ánh xạ quà dạng JSON",
+    "vi": "Cấu hình ánh xạ quà dạng JSON"
+  },
+  "three.saveRules": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Áp dụng ánh xạ quà",
+    "vi": "Áp dụng ánh xạ quà"
+  },
+  "three.preview": {
+    "context": "Unified game dashboard and clean TikTok LIVE Studio display; only two user-facing pages",
+    "original": "XEM TRƯỚC TRANG HIỂN THỊ",
+    "vi": "XEM TRƯỚC TRANG HIỂN THỊ"
+  },
+  "three.previewStatus": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "ĐANG XEM THỬ · CHƯA KẾT NỐI TIKTOK",
+    "vi": "ĐANG XEM THỬ · CHƯA KẾT NỐI TIKTOK"
+  },
+  "three.previewViewer": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Người xem thử",
+    "vi": "Người xem thử"
+  },
+  "three.viewerNumber": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Người xem {count}",
+    "vi": "Người xem {count}"
+  },
+  "three.loadError": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Không mở được sân khấu 3D. Kiểm tra WebGL2, tải lại trang hoặc dùng game 2D.",
+    "vi": "Không mở được sân khấu 3D. Kiểm tra WebGL2, tải lại trang hoặc dùng game 2D."
+  },
+  "three.fullscreenError": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Không mở được toàn màn hình trong trình duyệt này.",
+    "vi": "Không mở được toàn màn hình trong trình duyệt này."
+  },
+  "three.contextLost": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "GPU tạm ngắt. Đang chờ khôi phục WebGL…",
+    "vi": "GPU tạm ngắt. Đang chờ khôi phục WebGL…"
+  },
+  "three.contextRestored": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Đã khôi phục WebGL.",
+    "vi": "Đã khôi phục WebGL."
+  },
+  "three.sent": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Đã gửi lệnh đến phòng LIVE và bản xem thử.",
+    "vi": "Đã gửi lệnh đến phòng LIVE và bản xem thử."
+  },
+  "three.previewSent": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Đã gửi đến bản xem thử cùng trình duyệt.",
+    "vi": "Đã gửi đến bản xem thử cùng trình duyệt."
+  },
+  "three.invalidRules": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "JSON ánh xạ quà không hợp lệ. Kiểm tra action, target và điều kiện quà.",
+    "vi": "JSON ánh xạ quà không hợp lệ. Kiểm tra action, target và điều kiện quà."
+  },
+  "three.badge": {
+    "context": "2.5D character artwork on a 3D stage",
+    "original": "NHÂN VẬT 2.5D",
+    "vi": "NHÂN VẬT 2.5D"
+  },
+  "three.cardTitle": {
+    "context": "2.5D character artwork on a 3D stage",
+    "original": "H’Mông Dance Club · 2.5D",
+    "vi": "H’Mông Dance Club · 2.5D"
+  },
+  "three.cardDescription": {
+    "context": "Dance Club nâng cấp theo ảnh thứ hai của người dùng",
+    "original": "Phòng nhảy LED tím–xanh, nhân vật chibi mặc trang phục họa tiết theo ảnh tham chiếu. Nhóm 6 người hoặc mỗi người xem một nhân vật.",
+    "vi": "Phòng nhảy LED tím–xanh, nhân vật chibi mặc trang phục họa tiết theo ảnh tham chiếu. Nhóm 6 người hoặc mỗi người xem một nhân vật."
+  },
+  "three.try": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Xem demo ↗",
+    "vi": "Xem demo ↗"
+  },
+  "three.anim.idle": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Đứng chờ",
+    "vi": "Đứng chờ"
+  },
+  "three.anim.dance": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Nhảy",
+    "vi": "Nhảy"
+  },
+  "three.anim.happy": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Vui vẻ",
+    "vi": "Vui vẻ"
+  },
+  "three.anim.celebrate": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Ăn mừng",
+    "vi": "Ăn mừng"
+  },
+  "three.anim.wave": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Vẫy tay",
+    "vi": "Vẫy tay"
+  },
+  "three.anim.surprise": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Bất ngờ",
+    "vi": "Bất ngờ"
+  },
+  "three.anim.clap": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Vỗ tay",
+    "vi": "Vỗ tay"
+  },
+  "three.anim.gift": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Nhận quà",
+    "vi": "Nhận quà"
+  },
+  "three.anim.walk": {
+    "context": "Overlay / bảng điều khiển / trạng thái demo Three.js 3D",
+    "original": "Bước tại chỗ",
+    "vi": "Bước tại chỗ"
+  },
+  "three.maleWhite": {
+    "context": "Dance Club nâng cấp theo ảnh thứ hai của người dùng",
+    "original": "Nam · Sơ mi trắng",
+    "vi": "Nam · Sơ mi trắng"
+  },
+  "three.femaleBun": {
+    "context": "Dance Club nâng cấp theo ảnh thứ hai của người dùng",
+    "original": "Nữ · Phụ kiện bạc",
+    "vi": "Nữ · Phụ kiện bạc"
+  },
+  "music.title": {
+    "context": "Điều khiển nhạc nền local: overlay / admin",
+    "original": "Nhạc nền",
+    "vi": "Nhạc nền"
+  },
+  "music.play": {
+    "context": "Điều khiển nhạc nền local: overlay / admin",
+    "original": "Phát nhạc",
+    "vi": "Phát nhạc"
+  },
+  "music.pause": {
+    "context": "Điều khiển nhạc nền local: overlay / admin",
+    "original": "Tạm dừng",
+    "vi": "Tạm dừng"
+  },
+  "music.loading": {
+    "context": "Điều khiển nhạc nền local: overlay / admin",
+    "original": "Đang tải nhạc…",
+    "vi": "Đang tải nhạc…"
+  },
+  "music.empty": {
+    "context": "Điều khiển nhạc nền local: overlay / admin",
+    "original": "Chưa có bài nhạc",
+    "vi": "Chưa có bài nhạc"
+  },
+  "music.error": {
+    "context": "Điều khiển nhạc nền local: overlay / admin",
+    "original": "Không tải được nhạc. Kiểm tra file hoặc thử bài khác.",
+    "vi": "Không tải được nhạc. Kiểm tra file hoặc thử bài khác."
+  },
+  "music.unlock": {
+    "context": "Điều khiển nhạc nền local: overlay / admin",
+    "original": "Bấm Phát nhạc để cho phép phát tiếng.",
+    "vi": "Bấm Phát nhạc để cho phép phát tiếng."
+  },
+  "music.volume": {
+    "context": "Điều khiển nhạc nền local: overlay / admin",
+    "original": "Âm lượng nhạc",
+    "vi": "Âm lượng nhạc"
+  },
+  "music.previous": {
+    "context": "Điều khiển nhạc nền local: overlay / admin",
+    "original": "Bài trước",
+    "vi": "Bài trước"
+  },
+  "music.next": {
+    "context": "Điều khiển nhạc nền local: overlay / admin",
+    "original": "Bài tiếp",
+    "vi": "Bài tiếp"
+  },
+  "music.enable": {
+    "context": "Điều khiển nhạc nền local: overlay / admin",
+    "original": "Phát nhạc nền",
+    "vi": "Phát nhạc nền"
+  },
+  "music.choose": {
+    "context": "Điều khiển nhạc nền local: overlay / admin",
+    "original": "Chọn bài",
+    "vi": "Chọn bài"
+  },
+  "music.help": {
+    "context": "Unified game dashboard and clean TikTok LIVE Studio display; only two user-facing pages",
+    "original": "Nhạc phát ở trang hiển thị; khung xem trước tắt tiếng. Nếu trình duyệt chặn tự phát, bấm nút bật âm thanh trên trang hiển thị.",
+    "vi": "Nhạc phát ở trang hiển thị; khung xem trước tắt tiếng. Nếu trình duyệt chặn tự phát, bấm nút bật âm thanh trên trang hiển thị."
+  },
+  "three.maleVest": {
+    "context": "Điều khiển kích thước crowd và kiểu nhân vật mới",
+    "original": "Nam · Áo gile",
+    "vi": "Nam · Áo gile"
+  },
+  "three.femaleLonghair": {
+    "context": "Điều khiển kích thước crowd và kiểu nhân vật mới",
+    "original": "Nữ · Tóc dài",
+    "vi": "Nữ · Tóc dài"
+  },
+  "three.characterScale": {
+    "context": "Điều khiển kích thước crowd và kiểu nhân vật mới",
+    "original": "Kích thước nhân vật",
+    "vi": "Kích thước nhân vật"
+  },
+  "three.autoFrame": {
+    "context": "Điều khiển kích thước crowd và kiểu nhân vật mới",
+    "original": "Góc quay tự mở rộng theo số người; nhân vật tự nhỏ lại khi crowd đông.",
+    "vi": "Góc quay tự mở rộng theo số người; nhân vật tự nhỏ lại khi crowd đông."
+  },
+  "three.free": {
+    "context": "Default free dance: scattered positions and independent movement, no rows.",
+    "original": "Nhảy tự do · Rải khắp sàn",
+    "vi": "Nhảy tự do · Rải khắp sàn"
+  },
+  "three.anim.danceA": {
+    "context": "Six dance loops per character, numbered 1–6; comments affect only the sender avatar.",
+    "original": "Điệu 1 · Bước ngang đổi chân",
+    "vi": "Điệu 1 · Bước ngang đổi chân"
+  },
+  "three.anim.danceB": {
+    "context": "Six dance loops per character, numbered 1–6; comments affect only the sender avatar.",
+    "original": "Điệu 2 · Đánh tay, nhún gối",
+    "vi": "Điệu 2 · Đánh tay, nhún gối"
+  },
+  "three.simulator": {
+    "context": "Dance prototype and isolated local event simulator",
+    "original": "Mở phòng giả lập người vào/ra, quà & bình luận ↗",
+    "vi": "Mở phòng giả lập người vào/ra, quà & bình luận ↗"
+  },
+  "three.anim.danceC": {
+    "context": "Six dance loops per character, numbered 1–6; comments affect only the sender avatar.",
+    "original": "Điệu 3 · Disco",
+    "vi": "Điệu 3 · Disco"
+  },
+  "three.danceHelp": {
+    "context": "Exact sender-only chat commands; dance 1–6 or named aliases; automatic returns to all six dances.",
+    "original": "Gõ mời bia để mời bạn. Đổi nhân vật: nam · nữ. Đổi điệu: nhảy 1–6 · lắc hông · nhún vai · vung tay · tự động · đứng yên",
+    "vi": "Gõ mời bia để mời bạn. Đổi nhân vật: nam · nữ. Đổi điệu: nhảy 1–6 · lắc hông · nhún vai · vung tay · tự động · đứng yên"
+  },
+  "three.newMaleBlue": {
+    "context": "New character in the user reference: six males above, six females below",
+    "original": "Nam · Áo khoác xanh",
+    "vi": "Nam · Áo khoác xanh"
+  },
+  "three.newMaleHeadband": {
+    "context": "New character in the user reference: six males above, six females below",
+    "original": "Nam · Băng trán xanh, quần trắng",
+    "vi": "Nam · Băng trán xanh, quần trắng"
+  },
+  "three.newMaleRedBlack": {
+    "context": "New character in the user reference: six males above, six females below",
+    "original": "Nam · Đen đỏ",
+    "vi": "Nam · Đen đỏ"
+  },
+  "three.newMaleWhiteBlack": {
+    "context": "New character in the user reference: six males above, six females below",
+    "original": "Nam · Trắng đen",
+    "vi": "Nam · Trắng đen"
+  },
+  "three.newMaleRedBand": {
+    "context": "New character in the user reference: six males above, six females below",
+    "original": "Nam · Băng trán đỏ",
+    "vi": "Nam · Băng trán đỏ"
+  },
+  "three.newMaleWhiteBlue": {
+    "context": "New character in the user reference: six males above, six females below",
+    "original": "Nam · Trắng xanh",
+    "vi": "Nam · Trắng xanh"
+  },
+  "three.newFemaleBlueBun": {
+    "context": "New character in the user reference: six males above, six females below",
+    "original": "Nữ · Xanh, tóc búi",
+    "vi": "Nữ · Xanh, tóc búi"
+  },
+  "three.newFemaleCrown": {
+    "context": "New character in the user reference: six males above, six females below",
+    "original": "Nữ · Vương miện bạc xanh",
+    "vi": "Nữ · Vương miện bạc xanh"
+  },
+  "three.newFemaleRedBun": {
+    "context": "New character in the user reference: six males above, six females below",
+    "original": "Nữ · Đỏ, tóc búi",
+    "vi": "Nữ · Đỏ, tóc búi"
+  },
+  "three.newFemaleWhiteHat": {
+    "context": "New character in the user reference: six males above, six females below",
+    "original": "Nữ · Khăn trắng thêu",
+    "vi": "Nữ · Khăn trắng thêu"
+  },
+  "three.newFemaleRedBuns": {
+    "context": "New character in the user reference: six males above, six females below",
+    "original": "Nữ · Đỏ, tóc búi đôi",
+    "vi": "Nữ · Đỏ, tóc búi đôi"
+  },
+  "three.newFemaleBlueHat": {
+    "context": "New character in the user reference: six males above, six females below",
+    "original": "Nữ · Mũ trắng xanh",
+    "vi": "Nữ · Mũ trắng xanh"
+  },
+  "three.playersTitle": {
+    "context": "Unified game dashboard and clean TikTok LIVE Studio display; only two user-facing pages",
+    "original": "Người chơi & tương tác",
+    "vi": "Người chơi & tương tác"
+  },
+  "three.playersHelp": {
+    "context": "Unified game dashboard and clean TikTok LIVE Studio display; only two user-facing pages",
+    "original": "Thêm người thử rồi chọn người để gửi bình luận hoặc quà giả lập. Thao tác cập nhật khung bên cạnh và trang hiển thị đang mở.",
+    "vi": "Thêm người thử rồi chọn người để gửi bình luận hoặc quà giả lập. Thao tác cập nhật khung bên cạnh và trang hiển thị đang mở."
+  },
+  "three.addOne": {
+    "context": "Unified game dashboard and clean TikTok LIVE Studio display; only two user-facing pages",
+    "original": "+ Thêm 1 người",
+    "vi": "+ Thêm 1 người"
+  },
+  "three.addTen": {
+    "context": "Unified game dashboard and clean TikTok LIVE Studio display; only two user-facing pages",
+    "original": "+ Thêm 10 người",
+    "vi": "+ Thêm 10 người"
+  },
+  "three.addAll": {
+    "context": "Unified game dashboard and clean TikTok LIVE Studio display; only two user-facing pages",
+    "original": "+ Thêm đủ 20 mẫu",
+    "vi": "+ Thêm đủ 20 mẫu"
+  },
+  "three.testViewer": {
+    "context": "Unified game dashboard and clean TikTok LIVE Studio display; only two user-facing pages",
+    "original": "Người nhận tương tác",
+    "vi": "Người nhận tương tác"
+  },
+  "three.testComment": {
+    "context": "Unified game dashboard and clean TikTok LIVE Studio display; only two user-facing pages",
+    "original": "Bình luận / lệnh đổi điệu",
+    "vi": "Bình luận / lệnh đổi điệu"
+  },
+  "three.sendComment": {
+    "context": "Unified game dashboard and clean TikTok LIVE Studio display; only two user-facing pages",
+    "original": "Gửi bình luận",
+    "vi": "Gửi bình luận"
+  },
+  "three.testLike": {
+    "context": "Unified game dashboard and clean TikTok LIVE Studio display; only two user-facing pages",
+    "original": "Thả 10 tim",
+    "vi": "Thả 10 tim"
+  },
+  "three.testShare": {
+    "context": "Unified game dashboard and clean TikTok LIVE Studio display; only two user-facing pages",
+    "original": "Chia sẻ",
+    "vi": "Chia sẻ"
+  },
+  "three.testGiftKind": {
+    "context": "Unified game dashboard and clean TikTok LIVE Studio display; only two user-facing pages",
+    "original": "Quà giả lập",
+    "vi": "Quà giả lập"
+  },
+  "three.testGiftCount": {
+    "context": "Unified game dashboard and clean TikTok LIVE Studio display; only two user-facing pages",
+    "original": "Số lượng / combo",
+    "vi": "Số lượng / combo"
+  },
+  "three.sendGift": {
+    "context": "Unified game dashboard and clean TikTok LIVE Studio display; only two user-facing pages",
+    "original": "Tặng quà thử",
+    "vi": "Tặng quà thử"
+  },
+  "three.testLeave": {
+    "context": "Unified game dashboard and clean TikTok LIVE Studio display; only two user-facing pages",
+    "original": "Cho người này rời phòng",
+    "vi": "Cho người này rời phòng"
+  },
+  "three.testDuplicate": {
+    "context": "Unified game dashboard and clean TikTok LIVE Studio display; only two user-facing pages",
+    "original": "Thử vào trùng",
+    "vi": "Thử vào trùng"
+  },
+  "three.testAuto": {
+    "context": "Unified game dashboard and clean TikTok LIVE Studio display; only two user-facing pages",
+    "original": "Bật sự kiện tự động",
+    "vi": "Bật sự kiện tự động"
+  },
+  "three.testStopAuto": {
+    "context": "Unified game dashboard and clean TikTok LIVE Studio display; only two user-facing pages",
+    "original": "Dừng sự kiện tự động",
+    "vi": "Dừng sự kiện tự động"
+  },
+  "three.clearTestPeople": {
+    "context": "Unified game dashboard and clean TikTok LIVE Studio display; only two user-facing pages",
+    "original": "Xóa người thử",
+    "vi": "Xóa người thử"
+  },
+  "three.eventLog": {
+    "context": "Unified game dashboard and clean TikTok LIVE Studio display; only two user-facing pages",
+    "original": "Nhật ký tương tác",
+    "vi": "Nhật ký tương tác"
+  },
+  "three.unlockAudio": {
+    "context": "Unified game dashboard and clean TikTok LIVE Studio display; only two user-facing pages",
+    "original": "Bấm để bật âm thanh",
+    "vi": "Bấm để bật âm thanh"
+  },
+  "three.previewHelp": {
+    "context": "Unified game dashboard and clean TikTok LIVE Studio display; only two user-facing pages",
+    "original": "Dán link phía trên vào nguồn web trong TikTok LIVE Studio. Dùng Mở trang hiển thị để xem trước khi live.",
+    "vi": "Dán link phía trên vào nguồn web trong TikTok LIVE Studio. Dùng Mở trang hiển thị để xem trước khi live."
+  },
+  "three.anim.danceD": {
+    "context": "Six dance loops per character, numbered 1–6; comments affect only the sender avatar.",
+    "original": "Điệu 4 · Chống hông, lắc hông",
+    "vi": "Điệu 4 · Chống hông, lắc hông"
+  },
+  "three.anim.danceE": {
+    "context": "Six dance loops per character, numbered 1–6; comments affect only the sender avatar.",
+    "original": "Điệu 5 · Nhún vai, nhún gối",
+    "vi": "Điệu 5 · Nhún vai, nhún gối"
+  },
+  "three.anim.danceF": {
+    "context": "Six dance loops per character, numbered 1–6; comments affect only the sender avatar.",
+    "original": "Điệu 6 · Bước ngang, vung tay",
+    "vi": "Điệu 6 · Bước ngang, vung tay"
+  }
+}

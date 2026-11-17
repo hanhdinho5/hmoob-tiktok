@@ -1,0 +1,44 @@
+{
+  "loop": true,
+  "defaultVolume": 0.35,
+  "permission": "Người dùng xác nhận đã được phép tải và sử dụng nhạc trong cuộc trò chuyện ngày 15/11/2026; các bài được thêm theo yêu cầu của người dùng. Không phải tài nguyên CC0.",
+  "tracks": [
+    {
+      "id": "m4UT1z6jVf4",
+      "title": "Es Koj Puas Nco Kuv Thiab Remix Dj || P.A.P BEAT BAND ft NT One",
+      "src": "/assets/audio/music/m4UT1z6jVf4.m4a",
+      "source": "https://www.youtube.com/watch?v=m4UT1z6jVf4",
+      "duration": 233
+    },
+    {
+      "id": "RPS4tUgiTjY",
+      "title": "Qaws kom siab zog - koos loos",
+      "src": "/assets/audio/music/RPS4tUgiTjY.m4a",
+      "source": "https://www.youtube.com/watch?v=RPS4tUgiTjY",
+      "duration": 234
+    },
+    {
+      "id": "Un4PF7fTBbk-0230-0800",
+      "title": "Poj Niam Nyaum Nyaum - koos Loos (02:30–08:00)",
+      "src": "/assets/audio/music/Un4PF7fTBbk-0230-0800.m4a",
+      "source": "https://www.youtube.com/watch?v=Un4PF7fTBbk",
+      "sourceStart": 150,
+      "sourceEnd": 480,
+      "duration": 330
+    },
+    {
+      "id": "JGnhMteeRcE",
+      "title": "Kuv Xav Tau Koj++ By Ntaj Neeb Yaj",
+      "src": "/assets/audio/music/JGnhMteeRcE.m4a",
+      "source": "https://www.youtube.com/watch?v=JGnhMteeRcE",
+      "duration": 234.962721
+    },
+    {
+      "id": "ThlxD4LeFQo",
+      "title": "Liam kom kawg | Paj huab vaj",
+      "src": "/assets/audio/music/ThlxD4LeFQo.m4a",
+      "source": "https://www.youtube.com/watch?v=ThlxD4LeFQo",
+      "duration": 210
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "language": "hmn",
+  "dialect": "Hmoob Dawb",
+  "speaker": {
+    "name": null,
+    "gender": "male",
+    "nativeVerified": false,
+    "source": "User selected the male voice from T1R-MB6tEH4"
+  },
+  "notes": "Male reference selected by user. Reference audition only until verified event lines are supplied; no voice synthesis or event wording inferred from the sample.",
+  "clips": {
+    "welcome": {
+      "src": null,
+      "text": "Nyob zoo!",
+      "vi": "Xin chào!",
+      "reviewed": false
+    },
+    "thanks": {
+      "src": null,
+      "text": "Ua tsaug!",
+      "vi": "Cảm ơn!",
+      "reviewed": false
+    },
+    "specialGift": {
+      "src": null,
+      "text": "Ua tsaug!",
+      "vi": "Cảm ơn quà lớn — có thể thu câu riêng sau khi duyệt lời",
+      "reviewed": false
+    },
+    "love": {
+      "src": null,
+      "text": "Kuv hlub koj.",
+      "vi": "Tôi yêu bạn.",
+      "reviewed": false
+    },
+    "wellbeing": {
+      "src": null,
+      "text": "Kuv nyob zoo.",
+      "vi": "Tôi khỏe.",
+      "reviewed": false
+    },
+    "goodbye": {
+      "src": null,
+      "text": "Sib ntsib dua!",
+      "vi": "Hẹn gặp lại!",
+      "reviewed": false
+    }
+  },
+  "voiceReference": "/assets/audio/mc/reference/reference.json"
+}
